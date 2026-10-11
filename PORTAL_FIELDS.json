@@ -4,7 +4,7 @@
   "model_registry": {
     "display_name": "NYX ten-task policy suite 2026-10-11",
     "checkpoint_link": null,
-    "code_link": null
+    "code_link": "https://github.com/Mokk404/robosyn-submission"
   },
   "evaluation": {
     "experiment_name": "nyx-ten-task-random-20261011",

@@ -3,14 +3,14 @@
   "experiment_name": "nyx-ten-task-random-20261011",
   "names_are_proposed_not_registered": true,
   "participant": {
-    "full_name": Yin Shinan, Zhang Haowei, Guo Yuqian, Su Xianxian, Xiao Chenyao
-    "affiliation": 电子科技大学,
-    "email": 13302821000@163.com,
-    "team_name": UESTC-ROBOT,
+    "full_name": "Yin Shinan, Zhang Haowei, Guo Yuqian, Su Xianxian, Xiao Chenyao",
+    "affiliation": "电子科技大学",
+    "email": "13302821000@163.com",
+    "team_name": "UESTC-ROBOT",
     "access_token_received": false
   },
-  "team_name": null,
-  "code_url": null,
+  "team_name": "UESTC-ROBOT",
+  "code_url": "https://github.com/Mokk404/robosyn-submission",
   "huggingface_checkpoint_url": null,
   "short_description": "Task-specific ACT policies and RGB-based hybrid policies for all ten RoboSynChallenge tasks. See TASKS.json, ASSETS.json and per-task SUBMISSION.md for model mapping, inputs and runtime assets.",
   "technical_notes": "See PORTAL_FIELDS.json, README.md and ENVIRONMENT.md. Task-specific execution horizons are used; organizer guidance is required for six truthful 50/50 output/execution chunk declarations and for sample_loading FK/IK access.",
