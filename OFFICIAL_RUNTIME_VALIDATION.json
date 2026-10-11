@@ -1,0 +1,39 @@
+{
+  "status": "not_run",
+  "official_repository": {
+    "url": "https://github.com/EDEM-AI/RoboSynChallenge",
+    "commit": null
+  },
+  "environment": {
+    "os": null,
+    "python": null,
+    "pytorch": null,
+    "cuda": null,
+    "nvidia_driver": null,
+    "gpu": null,
+    "embodichain": null,
+    "dexsim": null,
+    "ffmpeg": null
+  },
+  "tasks": {
+    "click_bell": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "drawer_open_place": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "handle_basket": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "item_assembly": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "items_handover": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "manipulate_pipette": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "mixer_operating": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "sample_loading": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "table_rearrangement": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null},
+    "water_pouring": {"one_episode": "not_run", "multi_episode": "not_run", "log": null, "metrics": null}
+  },
+  "acceptance": {
+    "all_models_loaded": false,
+    "four_result_contract": false,
+    "action_dimension_14": false,
+    "clean_exit": false,
+    "videos_written": false,
+    "metrics_written": false
+  }
+}
+

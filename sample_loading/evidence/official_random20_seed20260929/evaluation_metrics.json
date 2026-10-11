@@ -1,0 +1,1014 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-01T00:37:00.643601+08:00",
+  "config": {
+    "policy": "sample_loading_90plus_visual_v89_public_obs_delayed_full_release_v1",
+    "task": "sample_loading",
+    "setting": "random",
+    "checkpoint_path": "/home/user/Robotsynchallenge/RoboSynChallenge/outputs/sample_loading_pose_regressor_v4_spatial_combined_reparam_seed20260920_v1/best.ckpt",
+    "dp_num_inference_steps": null,
+    "episode_count": 20,
+    "timeout_action_steps": 500,
+    "seed": 20260929,
+    "fixed_episode_seed": null
+  },
+  "inference_timing_scope": "raw observation preprocessing and transfer through executable action; env.step excluded",
+  "platform": {
+    "operating_system": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "cpu": "Intel(R) Core(TM) i9-14900K",
+    "accelerators": [
+      "NVIDIA GeForce RTX 4090"
+    ],
+    "cuda_visible_devices": null,
+    "python_version": "3.11.15",
+    "torch_version": "2.7.1+cu126",
+    "torch_cuda_version": "12.6"
+  },
+  "summary": {
+    "episode_count": 20,
+    "success_count": 15,
+    "success_rate": 0.75,
+    "average_action_steps": 444.45,
+    "average_action_steps_ratio": 0.8889,
+    "inference_call_count": 8889,
+    "average_inference_calls_per_episode": 444.45,
+    "average_inference_time_seconds": 0.04025491105982654,
+    "average_inference_time_per_episode_seconds": 17.891295220539906
+  },
+  "episodes": [
+    {
+      "episode_index": 0,
+      "candidate_index": 0,
+      "episode_attempt_index": 0,
+      "seed": 1319393300,
+      "success": true,
+      "action_steps": 460,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 1,
+      "candidate_index": 4,
+      "episode_attempt_index": 3,
+      "seed": 349509369,
+      "success": true,
+      "action_steps": 421,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 2,
+      "candidate_index": 5,
+      "episode_attempt_index": 0,
+      "seed": 1801277085,
+      "success": true,
+      "action_steps": 461,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 3,
+      "candidate_index": 9,
+      "episode_attempt_index": 3,
+      "seed": 1863478577,
+      "success": true,
+      "action_steps": 427,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 4,
+      "candidate_index": 17,
+      "episode_attempt_index": 7,
+      "seed": 165643183,
+      "success": true,
+      "action_steps": 426,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 5,
+      "candidate_index": 22,
+      "episode_attempt_index": 4,
+      "seed": 1607662671,
+      "success": true,
+      "action_steps": 449,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 6,
+      "candidate_index": 25,
+      "episode_attempt_index": 2,
+      "seed": 1030176451,
+      "success": false,
+      "action_steps": 500,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 7,
+      "candidate_index": 28,
+      "episode_attempt_index": 2,
+      "seed": 1566959987,
+      "success": true,
+      "action_steps": 427,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 8,
+      "candidate_index": 32,
+      "episode_attempt_index": 3,
+      "seed": 824000674,
+      "success": false,
+      "action_steps": 500,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 9,
+      "candidate_index": 33,
+      "episode_attempt_index": 0,
+      "seed": 1995026958,
+      "success": true,
+      "action_steps": 478,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 10,
+      "candidate_index": 34,
+      "episode_attempt_index": 0,
+      "seed": 330294177,
+      "success": true,
+      "action_steps": 402,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 11,
+      "candidate_index": 40,
+      "episode_attempt_index": 5,
+      "seed": 896029250,
+      "success": true,
+      "action_steps": 385,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 12,
+      "candidate_index": 44,
+      "episode_attempt_index": 3,
+      "seed": 13636672,
+      "success": true,
+      "action_steps": 406,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 13,
+      "candidate_index": 47,
+      "episode_attempt_index": 2,
+      "seed": 1483920513,
+      "success": true,
+      "action_steps": 411,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 14,
+      "candidate_index": 75,
+      "episode_attempt_index": 27,
+      "seed": 1075214494,
+      "success": false,
+      "action_steps": 500,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 15,
+      "candidate_index": 76,
+      "episode_attempt_index": 0,
+      "seed": 330974763,
+      "success": true,
+      "action_steps": 425,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 16,
+      "candidate_index": 88,
+      "episode_attempt_index": 11,
+      "seed": 1040971864,
+      "success": false,
+      "action_steps": 500,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 17,
+      "candidate_index": 93,
+      "episode_attempt_index": 4,
+      "seed": 2146933987,
+      "success": true,
+      "action_steps": 385,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 18,
+      "candidate_index": 97,
+      "episode_attempt_index": 3,
+      "seed": 323505068,
+      "success": true,
+      "action_steps": 426,
+      "expert_plan_steps": 372
+    },
+    {
+      "episode_index": 19,
+      "candidate_index": 117,
+      "episode_attempt_index": 19,
+      "seed": 1895355462,
+      "success": false,
+      "action_steps": 500,
+      "expert_plan_steps": 372
+    }
+  ],
+  "feasibility_filter": {
+    "enabled": true,
+    "max_candidate_seed_attempts_per_episode": 100,
+    "candidate_seed_attempt_count": 118,
+    "accepted_episode_count": 20,
+    "skipped_seed_count": 98,
+    "skipped_seeds": [
+      {
+        "candidate_index": 1,
+        "episode_index": 1,
+        "episode_attempt_index": 0,
+        "seed": 2043221159,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 2,
+        "episode_index": 1,
+        "episode_attempt_index": 1,
+        "seed": 1710659996,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 3,
+        "episode_index": 1,
+        "episode_attempt_index": 2,
+        "seed": 17251527,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 6,
+        "episode_index": 3,
+        "episode_attempt_index": 0,
+        "seed": 786769781,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 7,
+        "episode_index": 3,
+        "episode_attempt_index": 1,
+        "seed": 407398258,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 8,
+        "episode_index": 3,
+        "episode_attempt_index": 2,
+        "seed": 457549876,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 10,
+        "episode_index": 4,
+        "episode_attempt_index": 0,
+        "seed": 1052050325,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 11,
+        "episode_index": 4,
+        "episode_attempt_index": 1,
+        "seed": 661311370,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 12,
+        "episode_index": 4,
+        "episode_attempt_index": 2,
+        "seed": 1733864886,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 13,
+        "episode_index": 4,
+        "episode_attempt_index": 3,
+        "seed": 1956572065,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 14,
+        "episode_index": 4,
+        "episode_attempt_index": 4,
+        "seed": 335753327,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 15,
+        "episode_index": 4,
+        "episode_attempt_index": 5,
+        "seed": 214609960,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 16,
+        "episode_index": 4,
+        "episode_attempt_index": 6,
+        "seed": 1300257421,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 18,
+        "episode_index": 5,
+        "episode_attempt_index": 0,
+        "seed": 2091415212,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 19,
+        "episode_index": 5,
+        "episode_attempt_index": 1,
+        "seed": 913537566,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 20,
+        "episode_index": 5,
+        "episode_attempt_index": 2,
+        "seed": 483625559,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 21,
+        "episode_index": 5,
+        "episode_attempt_index": 3,
+        "seed": 1502208456,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 23,
+        "episode_index": 6,
+        "episode_attempt_index": 0,
+        "seed": 107094084,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 24,
+        "episode_index": 6,
+        "episode_attempt_index": 1,
+        "seed": 361053311,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 26,
+        "episode_index": 7,
+        "episode_attempt_index": 0,
+        "seed": 1804967159,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 27,
+        "episode_index": 7,
+        "episode_attempt_index": 1,
+        "seed": 1297760549,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 29,
+        "episode_index": 8,
+        "episode_attempt_index": 0,
+        "seed": 1419852837,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 30,
+        "episode_index": 8,
+        "episode_attempt_index": 1,
+        "seed": 746871346,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 31,
+        "episode_index": 8,
+        "episode_attempt_index": 2,
+        "seed": 1617320141,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 35,
+        "episode_index": 11,
+        "episode_attempt_index": 0,
+        "seed": 656017518,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 36,
+        "episode_index": 11,
+        "episode_attempt_index": 1,
+        "seed": 705329602,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 37,
+        "episode_index": 11,
+        "episode_attempt_index": 2,
+        "seed": 240475157,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 38,
+        "episode_index": 11,
+        "episode_attempt_index": 3,
+        "seed": 673909406,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 39,
+        "episode_index": 11,
+        "episode_attempt_index": 4,
+        "seed": 1179864523,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 41,
+        "episode_index": 12,
+        "episode_attempt_index": 0,
+        "seed": 1241401647,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 42,
+        "episode_index": 12,
+        "episode_attempt_index": 1,
+        "seed": 1244885417,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 43,
+        "episode_index": 12,
+        "episode_attempt_index": 2,
+        "seed": 2121901479,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 45,
+        "episode_index": 13,
+        "episode_attempt_index": 0,
+        "seed": 1668415183,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 46,
+        "episode_index": 13,
+        "episode_attempt_index": 1,
+        "seed": 540479594,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 48,
+        "episode_index": 14,
+        "episode_attempt_index": 0,
+        "seed": 571378390,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 49,
+        "episode_index": 14,
+        "episode_attempt_index": 1,
+        "seed": 1723953238,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 50,
+        "episode_index": 14,
+        "episode_attempt_index": 2,
+        "seed": 1636365846,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 51,
+        "episode_index": 14,
+        "episode_attempt_index": 3,
+        "seed": 842795613,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 52,
+        "episode_index": 14,
+        "episode_attempt_index": 4,
+        "seed": 1354114416,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 53,
+        "episode_index": 14,
+        "episode_attempt_index": 5,
+        "seed": 2086955485,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 54,
+        "episode_index": 14,
+        "episode_attempt_index": 6,
+        "seed": 1458425954,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 55,
+        "episode_index": 14,
+        "episode_attempt_index": 7,
+        "seed": 67957561,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 56,
+        "episode_index": 14,
+        "episode_attempt_index": 8,
+        "seed": 2081742401,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 57,
+        "episode_index": 14,
+        "episode_attempt_index": 9,
+        "seed": 975603833,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 58,
+        "episode_index": 14,
+        "episode_attempt_index": 10,
+        "seed": 1682876856,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 59,
+        "episode_index": 14,
+        "episode_attempt_index": 11,
+        "seed": 2044791169,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 60,
+        "episode_index": 14,
+        "episode_attempt_index": 12,
+        "seed": 591087009,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 61,
+        "episode_index": 14,
+        "episode_attempt_index": 13,
+        "seed": 962186665,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 62,
+        "episode_index": 14,
+        "episode_attempt_index": 14,
+        "seed": 49355949,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 63,
+        "episode_index": 14,
+        "episode_attempt_index": 15,
+        "seed": 1868337977,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 64,
+        "episode_index": 14,
+        "episode_attempt_index": 16,
+        "seed": 1205742704,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 65,
+        "episode_index": 14,
+        "episode_attempt_index": 17,
+        "seed": 506195350,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 66,
+        "episode_index": 14,
+        "episode_attempt_index": 18,
+        "seed": 147216470,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 67,
+        "episode_index": 14,
+        "episode_attempt_index": 19,
+        "seed": 1302953939,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 68,
+        "episode_index": 14,
+        "episode_attempt_index": 20,
+        "seed": 485481435,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 69,
+        "episode_index": 14,
+        "episode_attempt_index": 21,
+        "seed": 1798902370,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 70,
+        "episode_index": 14,
+        "episode_attempt_index": 22,
+        "seed": 592288408,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 71,
+        "episode_index": 14,
+        "episode_attempt_index": 23,
+        "seed": 194571905,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 72,
+        "episode_index": 14,
+        "episode_attempt_index": 24,
+        "seed": 1658656847,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 73,
+        "episode_index": 14,
+        "episode_attempt_index": 25,
+        "seed": 1409328286,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 74,
+        "episode_index": 14,
+        "episode_attempt_index": 26,
+        "seed": 1250312723,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 77,
+        "episode_index": 16,
+        "episode_attempt_index": 0,
+        "seed": 815777829,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 78,
+        "episode_index": 16,
+        "episode_attempt_index": 1,
+        "seed": 1406355452,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 79,
+        "episode_index": 16,
+        "episode_attempt_index": 2,
+        "seed": 898288828,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 80,
+        "episode_index": 16,
+        "episode_attempt_index": 3,
+        "seed": 454962749,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 81,
+        "episode_index": 16,
+        "episode_attempt_index": 4,
+        "seed": 1084744136,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 82,
+        "episode_index": 16,
+        "episode_attempt_index": 5,
+        "seed": 936846424,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 83,
+        "episode_index": 16,
+        "episode_attempt_index": 6,
+        "seed": 521755847,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 84,
+        "episode_index": 16,
+        "episode_attempt_index": 7,
+        "seed": 360549778,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 85,
+        "episode_index": 16,
+        "episode_attempt_index": 8,
+        "seed": 664120110,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 86,
+        "episode_index": 16,
+        "episode_attempt_index": 9,
+        "seed": 1145064938,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 87,
+        "episode_index": 16,
+        "episode_attempt_index": 10,
+        "seed": 1044451939,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 89,
+        "episode_index": 17,
+        "episode_attempt_index": 0,
+        "seed": 1797370730,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 90,
+        "episode_index": 17,
+        "episode_attempt_index": 1,
+        "seed": 1828350945,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 91,
+        "episode_index": 17,
+        "episode_attempt_index": 2,
+        "seed": 742367907,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 92,
+        "episode_index": 17,
+        "episode_attempt_index": 3,
+        "seed": 817031447,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 94,
+        "episode_index": 18,
+        "episode_attempt_index": 0,
+        "seed": 510016637,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 95,
+        "episode_index": 18,
+        "episode_attempt_index": 1,
+        "seed": 1408379218,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 96,
+        "episode_index": 18,
+        "episode_attempt_index": 2,
+        "seed": 1658820715,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 98,
+        "episode_index": 19,
+        "episode_attempt_index": 0,
+        "seed": 465622666,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 99,
+        "episode_index": 19,
+        "episode_attempt_index": 1,
+        "seed": 21615434,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 100,
+        "episode_index": 19,
+        "episode_attempt_index": 2,
+        "seed": 1440155694,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 101,
+        "episode_index": 19,
+        "episode_attempt_index": 3,
+        "seed": 689014953,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 102,
+        "episode_index": 19,
+        "episode_attempt_index": 4,
+        "seed": 1508923315,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 103,
+        "episode_index": 19,
+        "episode_attempt_index": 5,
+        "seed": 1793252858,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 104,
+        "episode_index": 19,
+        "episode_attempt_index": 6,
+        "seed": 388378015,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 105,
+        "episode_index": 19,
+        "episode_attempt_index": 7,
+        "seed": 1736623115,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 106,
+        "episode_index": 19,
+        "episode_attempt_index": 8,
+        "seed": 471810386,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 107,
+        "episode_index": 19,
+        "episode_attempt_index": 9,
+        "seed": 653167041,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 108,
+        "episode_index": 19,
+        "episode_attempt_index": 10,
+        "seed": 2034638194,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 109,
+        "episode_index": 19,
+        "episode_attempt_index": 11,
+        "seed": 1605102579,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 110,
+        "episode_index": 19,
+        "episode_attempt_index": 12,
+        "seed": 535708002,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 111,
+        "episode_index": 19,
+        "episode_attempt_index": 13,
+        "seed": 1046890471,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 112,
+        "episode_index": 19,
+        "episode_attempt_index": 14,
+        "seed": 1232286550,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 113,
+        "episode_index": 19,
+        "episode_attempt_index": 15,
+        "seed": 1100303655,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 114,
+        "episode_index": 19,
+        "episode_attempt_index": 16,
+        "seed": 24014184,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 115,
+        "episode_index": 19,
+        "episode_attempt_index": 17,
+        "seed": 971810556,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      },
+      {
+        "candidate_index": 116,
+        "episode_index": 19,
+        "episode_attempt_index": 18,
+        "seed": 1094509185,
+        "reason": "expert_action_generation_failed",
+        "expert_plan_steps": 0
+      }
+    ]
+  }
+}

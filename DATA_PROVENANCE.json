@@ -1,0 +1,72 @@
+{
+  "click_bell": [
+    {
+      "source_file": "checkpoint/080000/pretrained_model/train_config.json",
+      "dataset": {
+        "repo_id": "cobotmagic_Sim_click_the_bell_006_007_merged_v0",
+        "root": "/home/user/Robotsynchallenge/RoboSynChallenge/lerobot_dataset/click_bell/cobotmagic_Sim_click_the_bell_006_007_merged_v0",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ],
+  "drawer_open_place": [
+    {
+      "source_file": "checkpoint/pretrained_model/train_config.json",
+      "dataset": {
+        "repo_id": "mixed",
+        "root": "/home/user/Robotsynchallenge/drawer_current_replay_merged_20260920_v1/mixed",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ],
+  "handle_basket": [
+    {
+      "source_file": "policy/act_handle_basket_submission_v1/checkpoint/train_config.json",
+      "dataset": {
+        "repo_id": "cobotmagic_Sim_handle_basket_official1000_custom20_v0",
+        "root": "/home/user/Robotsynchallenge/RoboSynChallenge/lerobot_dataset/handle_basket/cobotmagic_Sim_handle_basket_official1000_custom20_v0",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ],
+  "item_assembly": [
+    {
+      "source_file": "checkpoint/train_config.json",
+      "dataset": {
+        "repo_id": "cobotmagic_Sim_item_assembly_official1000_custom_v0",
+        "root": "/root/gpufree-data/lerobot_dataset/item_assembly/cobotmagic_Sim_item_assembly_official1000_custom_v0",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ],
+  "items_handover": [],
+  "manipulate_pipette": [
+    {
+      "source_file": "checkpoint/current1500/pretrained_model/train_config.json",
+      "dataset": {
+        "repo_id": "manipulate_pipette/cobotmagic_Sim_manipulate_pipette_official1000_custom_v0",
+        "root": "/home/user/Robotsynchallenge/RoboSynChallenge/lerobot_dataset/manipulate_pipette/cobotmagic_Sim_manipulate_pipette_official1000_custom_v0",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ],
+  "mixer_operating": [],
+  "sample_loading": [],
+  "table_rearrangement": [],
+  "water_pouring": [
+    {
+      "source_file": "checkpoint/train_config.json",
+      "dataset": {
+        "repo_id": "cobotmagic_Sim_water_pouring_official1000_custom100_v0",
+        "root": "/home/user/Robotsynchallenge/RoboSynChallenge/lerobot_dataset/water_pouring/cobotmagic_Sim_water_pouring_official1000_custom100_v0",
+        "episodes": null,
+        "revision": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+policy_name: act_mixer_submission_v1
+task_name: mixer_operating
+setting: random
+model_name: mixer_baseline100000
+seed: 0
+max_episodes: 100
+max_steps: null
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys:
+  - cam_high
+  - cam_right_wrist
+  - cam_left_wrist
+eval_reset_sync_steps: 1
+
+checkpoint_path: null
+act_step: 10
+strict_action_dim: true
+scale_gripper_01_to_env: true
+gripper_action_ids: [6, 13]
+state_observation_paths:
+  observation.state: robot/qpos
+  observation.qvel: robot/qvel
+  observation.qf: robot/qf
+image_key_map:
+  observation.images.cam_high: cam_high
+  observation.images.cam_right_wrist: cam_right_wrist
+  observation.images.cam_left_wrist: cam_left_wrist

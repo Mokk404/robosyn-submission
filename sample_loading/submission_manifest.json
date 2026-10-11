@@ -1,0 +1,29 @@
+{
+  "task": "sample_loading",
+  "policy": "sample_loading_v89_public_obs",
+  "entrypoint": "deploy_policy.py",
+  "config": "deploy_policy.yml",
+  "score": {
+    "protocol": "random20",
+    "master_seed": 20260929,
+    "success_count": 15,
+    "episode_count": 20,
+    "success_rate": 0.75,
+    "average_action_steps": 444.45,
+    "average_inference_time_seconds": 0.04025491105982654
+  },
+  "observations": [
+    "joints",
+    "gripper",
+    "cam_high",
+    "cam_left_wrist",
+    "cam_right_wrist"
+  ],
+  "action": {
+    "type": "absolute_joint_and_gripper",
+    "dimensions": 14
+  },
+  "official_repository_commit_used_for_score": "7503c7cb000bdf869cdba302e329724b3a223c75",
+  "ranked_upload_ready": false,
+  "blocking_confirmation": "Organizer confirmation required for env.unwrapped.robot FK/IK access."
+}

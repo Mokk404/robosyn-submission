@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "task": "mixer_operating",
+  "checkpoint_source": "outputs/mixer_resume80k_to160k_20260907_160531_lM7Gld/train/checkpoints/100000/pretrained_model",
+  "weight_hashes": {
+    "config.json": "080cbc8fbedf4b49c362e1557801b42fa15bd367170c33181defd8ca9f65654d",
+    "model.safetensors": "51a2247dc0814826c0f8b6eb1ae5ee02a3743f0109f67986fd0a2c1116f1e716"
+  },
+  "gpu_validation": "not_run",
+  "historical_evidence": "100000保留基线。历史463/500及后续88/100等结果使用历史设置（含冻结区间随机事件），不能标为当前官方random成绩；lr2e-6的120000仅单批90/100，未据此替换基线。"
+}

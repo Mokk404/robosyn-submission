@@ -1,0 +1,43 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local evaluation output
+eval_result/
+evaluation_results/
+logs/
+*.log
+
+# Packaging history is retained locally, not published as submission source.
+_history/
+*/history_prepackage_*/
+
+# Runtime assets are published in the Hugging Face model repository and restored
+# at the same relative paths with download_assets.py.
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.npy
+*.npz
+*.parquet
+
+# Evaluation videos are evidence artifacts, not source code.
+*.mp4
+*.webm
+*.mov
+*.m4v
+
+# Local archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+

@@ -1,0 +1,33 @@
+# RoboSynChallenge drawer_open_place evaluation configuration
+policy_name: drawer_open_place
+task_name: drawer_open_place
+setting: random
+train_config_name: null
+model_name: drawer_placement_weighted_002500
+seed: 0
+max_episodes: 100
+max_steps: null
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_reset_sync_steps: 0
+eval_expert_check: true
+eval_max_seed_attempts_per_episodes: 100
+eval_result_dir: null
+
+# Download the checkpoint from the submitted Hugging Face repository and pass
+# its local directory as the first argument to eval.sh.
+checkpoint_path: null
+act_step: 10
+strict_action_dim: true
+scale_gripper_01_to_env: true
+gripper_action_ids: [6, 13]
+state_observation_paths:
+  observation.state: robot/qpos
+neutralize_state_features: [observation.qvel, observation.qf]
+image_key_map:
+  observation.images.cam_high: cam_high
+  observation.images.cam_right_wrist: cam_right_wrist
+  observation.images.cam_left_wrist: cam_left_wrist

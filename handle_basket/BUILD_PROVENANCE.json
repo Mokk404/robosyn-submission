@@ -1,0 +1,22 @@
+{
+    "task":  "handle_basket",
+    "built_at":  "2026-10-10T23:45:41.8467428+08:00",
+    "policy":  "act_handle_basket_submission_v1",
+    "source_checkpoint":  "RoboSynChallenge/outputs/act_handle_basket_mixed1020_bs8_v1/checkpoints/080000/pretrained_model",
+    "checkpoint_step":  80000,
+    "checkpoint_files_copied_without_transformation":  [
+                                                           "config.json",
+                                                           "model.safetensors",
+                                                           "train_config.json"
+                                                       ],
+    "historical_evaluation":  {
+                                  "protocol":  "random100",
+                                  "seed":  0,
+                                  "success":  90,
+                                  "failure":  10,
+                                  "temporary_videos":  0,
+                                  "timestamp":  "2026-09-07_23-33-30",
+                                  "evidence":  "RoboSynChallenge/eval_result/final_official_random100_20260907/handle_basket/act_observation_only_final_20260907/random/official_random100_seed0/080000/2026-09-07_23-33-30/videos"
+                              },
+    "gpu_validation_during_packaging":  "not_run"
+}

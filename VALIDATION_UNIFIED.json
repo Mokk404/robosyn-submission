@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-11",
+  "tasks": {
+    "click_bell": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "drawer_open_place": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "handle_basket": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "item_assembly": {
+      "required_entry_files": true,
+      "required_assets": 3,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "items_handover": {
+      "required_entry_files": true,
+      "required_assets": 8,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "manipulate_pipette": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "mixer_operating": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "sample_loading": {
+      "required_entry_files": true,
+      "required_assets": 371,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "table_rearrangement": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    },
+    "water_pouring": {
+      "required_entry_files": true,
+      "required_assets": 2,
+      "python_syntax": "passed",
+      "gpu_rollout": "not_run"
+    }
+  },
+  "model_weights_changed": false,
+  "gpu_evaluation": "not_run",
+  "external_submission": "not_performed",
+  "release_preparation": {
+    "portal_field_coverage": "prepared_with_external_values_pending",
+    "task_protocol_records": 10,
+    "known_portal_chunk_conflicts": 6,
+    "huggingface_asset_records_verified": 396,
+    "code_repository_large_assets_excluded": true,
+    "license_decision": "pending_owner"
+  },
+  "runner_checks": {
+    "task_plans": 10,
+    "absolute_paths": "passed",
+    "argument_forwarding": "passed",
+    "independent_namespaces": "passed",
+    "existing_four_result_wrappers": 2,
+    "wrapper_exception_cleanup": "passed",
+    "full_runtime_imports": "not_tested",
+    "gpu_rollout": "not_run"
+  },
+  "integrity_manifest_entries": 642
+}

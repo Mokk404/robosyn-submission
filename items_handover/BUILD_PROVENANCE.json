@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "candidate_name": "items_handover_rgb_fullplan_translation_dual_v60_20260916",
+  "source_freeze_manifest_sha256": "c17fcc6fdffd66960788d05b277e8c5b1199ecccb579ee6f3d59e3d8606f6c08",
+  "official_upstream_commit": "7503c7cb000bdf869cdba302e329724b3a223c75",
+  "runtime": {
+    "python": "3.11.15",
+    "pytorch": "2.7.1+cu126",
+    "cuda": "12.6"
+  },
+  "training_data": {
+    "repo_id": "cobotmagic_Sim_items_handover_official1000_custom_v0",
+    "episodes": 1100,
+    "frames": 359700,
+    "known_limits": [
+      "authoritative success labels unavailable",
+      "collection RNG seed unavailable",
+      "complete collection command unavailable"
+    ]
+  },
+  "checkpoint_source_hashes": {
+    "primary": [
+      {
+        "path": "config.json",
+        "bytes": 2064,
+        "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
+      },
+      {
+        "path": "model.safetensors",
+        "bytes": 206563032,
+        "sha256": "fecd893ea61daa7fa30364f45e56db0ee8a6d29ef3a29bfbe47cdc36a1946640"
+      },
+      {
+        "path": "train_config.json",
+        "bytes": 5444,
+        "sha256": "5ef7f564a2fba1014a5bfa5e6b4e729aa046e3e07fa8df3dd2da467fb8404ab9"
+      }
+    ],
+    "auxiliary": [
+      {
+        "path": "config.json",
+        "bytes": 2060,
+        "sha256": "62f8ccde2de99c782f25c3cb3a7c48bc7acaa2f542e291a752cee200ee3d84e1"
+      },
+      {
+        "path": "model.safetensors",
+        "bytes": 206563032,
+        "sha256": "3067bff8bd35a83ff69eb149d9cc7749d1d032d1f46cc603d1a2a561f3c0080f"
+      },
+      {
+        "path": "train_config.json",
+        "bytes": 5517,
+        "sha256": "22019b4cb478c13623a22a80f8c23c79bf6e9f3e4378d647855834ef8aea0e33"
+      }
+    ]
+  }
+}

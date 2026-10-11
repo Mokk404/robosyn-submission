@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+numpy==1.26.4
+torch==2.7.1+cu126
+torchvision==0.22.1
+lerobot==0.3.3
+safetensors==0.8.0
+PyYAML==6.0.3
+av==18.1.0
+opencv-python==4.11.0.86
+dexsim-engine==0.4.3

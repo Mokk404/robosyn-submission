@@ -1,0 +1,2002 @@
+{
+  "click_bell": [
+    {
+      "path": "checkpoint/080000/pretrained_model/config.json",
+      "bytes": 2065,
+      "sha256": "b882672f8029f1887651ce1719ac9047ee1ddb1565085d6bb5e1e2868f6cdd2c"
+    },
+    {
+      "path": "checkpoint/080000/pretrained_model/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "b8adc47d50b0308a09859688c97a467e5087ee178935f32189fdfab2b451ff85"
+    }
+  ],
+  "drawer_open_place": [
+    {
+      "path": "checkpoint/pretrained_model/config.json",
+      "bytes": 2060,
+      "sha256": "c5e76c7a78ee99414f212b4e7c89db169a6185a4bc47098fec2177a3a6338509"
+    },
+    {
+      "path": "checkpoint/pretrained_model/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "0e62f070480f10dc768f49de3307e713809ec3c68da9eaaf5b50057480803efe"
+    }
+  ],
+  "handle_basket": [
+    {
+      "path": "policy/act_handle_basket_submission_v1/checkpoint/config.json",
+      "bytes": 2064,
+      "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
+    },
+    {
+      "path": "policy/act_handle_basket_submission_v1/checkpoint/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "29034d5a49066d980a23b5056e2711fe51d4b12be1783d1a74f28d8c7e937cbc"
+    }
+  ],
+  "item_assembly": [
+    {
+      "path": "checkpoint/config.json",
+      "bytes": 2064,
+      "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
+    },
+    {
+      "path": "checkpoint/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "ff69fa981b78bb55a8ad7e82fccdd24b67bd9938aabf1b37959ca4e192edbd0c"
+    },
+    {
+      "path": "residual.json",
+      "bytes": 6056,
+      "sha256": "d79b8abfb5e7556d804165d11a0e1950fe2d687ead96107c4a127f4e30e0b611"
+    }
+  ],
+  "items_handover": [
+    {
+      "path": "policy/items_handover/assets/auxiliary_act/config.json",
+      "bytes": 2060,
+      "sha256": "62f8ccde2de99c782f25c3cb3a7c48bc7acaa2f542e291a752cee200ee3d84e1"
+    },
+    {
+      "path": "policy/items_handover/assets/auxiliary_act/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "3067bff8bd35a83ff69eb149d9cc7749d1d032d1f46cc603d1a2a561f3c0080f"
+    },
+    {
+      "path": "policy/items_handover/assets/gripper_schedule.npy",
+      "bytes": 2928,
+      "sha256": "ffb815528135146108a98926978282a4e213a7cb318bfedc199e5ae45b2c61d8"
+    },
+    {
+      "path": "policy/items_handover/assets/primary_act/config.json",
+      "bytes": 2064,
+      "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
+    },
+    {
+      "path": "policy/items_handover/assets/primary_act/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "fecd893ea61daa7fa30364f45e56db0ee8a6d29ef3a29bfbe47cdc36a1946640"
+    },
+    {
+      "path": "policy/items_handover/assets/translation_normalizers.npz",
+      "bytes": 1186,
+      "sha256": "df761807d457fdac40b8997703cbd6574a5c8dc150207c77621e35f1167478a7"
+    },
+    {
+      "path": "policy/items_handover/assets/translation_pose.pt",
+      "bytes": 77422233,
+      "sha256": "e4fa45f1d9de1481374893b13af0ee4bdfaa1f932480ee7c36cda605620fe70f"
+    },
+    {
+      "path": "policy/items_handover/assets/translation_robust_rbf_v1.npz",
+      "bytes": 1039413,
+      "sha256": "f73cf1621828a012d8bb51ce1f272fd98b66ba4b3c59c8fe26a888bd7eae2699"
+    }
+  ],
+  "manipulate_pipette": [
+    {
+      "path": "checkpoint/current1500/pretrained_model/config.json",
+      "bytes": 2060,
+      "sha256": "025e02433a3e8c844093550fff0d6db5e7494b412f6e74dce7674910b36874e9"
+    },
+    {
+      "path": "checkpoint/current1500/pretrained_model/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "5318fbb1d4c371290931d083c2fe76e257a190e803965386648f6518a23f9fec"
+    }
+  ],
+  "mixer_operating": [
+    {
+      "path": "policy/act_mixer_submission_v1/checkpoint/config.json",
+      "bytes": 2060,
+      "sha256": "080cbc8fbedf4b49c362e1557801b42fa15bd367170c33181defd8ca9f65654d"
+    },
+    {
+      "path": "policy/act_mixer_submission_v1/checkpoint/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "51a2247dc0814826c0f8b6eb1ae5ee02a3743f0109f67986fd0a2c1116f1e716"
+    }
+  ],
+  "sample_loading": [
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000000.parquet",
+      "bytes": 108542,
+      "sha256": "55f1663350009deb51dd25a25f036584c589d9c58b787ab2b17b5951bfba639f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000001.parquet",
+      "bytes": 105576,
+      "sha256": "378d1f6cac24844910eaae983d7659b5f87f96110ca4b1b02d10fbfa5ddc152f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000002.parquet",
+      "bytes": 99374,
+      "sha256": "6c845d8cf96fe8c92f3f63762ce20e4d755868c04480cff02a0bea52652440c8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000003.parquet",
+      "bytes": 108853,
+      "sha256": "c916c807dff470790a4671dfc7aa7517f1d82d243bea0f20366d51682b0cb4c2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000004.parquet",
+      "bytes": 102761,
+      "sha256": "3b44e5fa5bf2273fac697038e1daf193c8ac7f857c7e655888680456d0649c28"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000005.parquet",
+      "bytes": 101817,
+      "sha256": "4ce231a5cf65af3d7717e417ae7fc76bd601f6c4e0c08ee414c12801241574bb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000006.parquet",
+      "bytes": 102756,
+      "sha256": "4322ab97e91ad11a717af4552cc5dcfab3b7b6d6e752840d16f0f7669c44cebc"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000007.parquet",
+      "bytes": 96553,
+      "sha256": "b00525ba17f9a7322e3ddca877595d699a6c47a102e28c4b20888e993dea6fad"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000008.parquet",
+      "bytes": 104091,
+      "sha256": "63873eb077fe03b1b4cb1569020dc3b869d19b95be3ead4ef9a7ae9bddc3b491"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000009.parquet",
+      "bytes": 95970,
+      "sha256": "f6ae62f9adf2b90113f8f529002a8a59d6bdca0f780df7dcad244f10c6e63bed"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000010.parquet",
+      "bytes": 102190,
+      "sha256": "89967b5e0e267a9671d7d510139f815cdf61a4f0958ae4a870933ced042d9af0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000011.parquet",
+      "bytes": 98459,
+      "sha256": "b14e619aa17c20c9abc267dde767fa7fd530363cc328df9662e63d3c37777e0d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000012.parquet",
+      "bytes": 105289,
+      "sha256": "d0ff8ac18e391e92a5d4589219ce1a0810049f732003aab0bb9f80709bf72f02"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000013.parquet",
+      "bytes": 102544,
+      "sha256": "6962b0a2542ae09dbdb3fbb748cd98ad8109c1881f73f5b00b46b9ceee873cd2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000014.parquet",
+      "bytes": 101646,
+      "sha256": "2ae0e69b06a764f9d7ef2848f70b81c620b3f13c5b17ce4b7230c21c06498942"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000015.parquet",
+      "bytes": 105476,
+      "sha256": "65ca9ca574663536715045d085d26d09584c0f98c403750fb3f9f502c810a25b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000016.parquet",
+      "bytes": 106109,
+      "sha256": "f0a7d4f7462088c29e0337010aca5c85e4d0976a16cdccbc6d0507176284a356"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000017.parquet",
+      "bytes": 112561,
+      "sha256": "130e44c711e8734eb8975ad5752206c6d632fb5963f12b9a1bfebe68207fb2e5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000018.parquet",
+      "bytes": 106882,
+      "sha256": "a8cc8592cc795775c52aabac71eed3bcc3eb5745aa75f1af0e00fbdee3114d81"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000019.parquet",
+      "bytes": 95187,
+      "sha256": "2c9cbaed172c1b20bb7b806c606c3c60f5b50f0179e13048c00e0dc4ac0e81bf"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000020.parquet",
+      "bytes": 104343,
+      "sha256": "09d54d726b28d922be154042d086ed9f127c8dda34e4d415ada61fc5a598aa99"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000021.parquet",
+      "bytes": 109252,
+      "sha256": "d2f7a563f18df078b92b129b808e8932b4b57335b383de4a8eac118070bfddbb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000022.parquet",
+      "bytes": 109994,
+      "sha256": "cf40798ab5500944a8a261176efefd824b922c044669c21a75d068d23c5440ed"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000023.parquet",
+      "bytes": 113019,
+      "sha256": "386592db1d205ae145ea0745c8399641d13dc4017bc1a24dd6dd454f35c2e75f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000024.parquet",
+      "bytes": 102662,
+      "sha256": "d19149358a6ee9aeb8f17e31451b45678218e89af78208da23333ed1bf8de8fe"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000025.parquet",
+      "bytes": 111011,
+      "sha256": "7706cbba77f7320baaf6507d10428cebc581457e70c977a723e118a71fa1dd84"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000026.parquet",
+      "bytes": 97808,
+      "sha256": "383bddbb58e92fc6f1d64e8e3c678a9d3cb6a987cc85604ac2c29438d7d02e73"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000027.parquet",
+      "bytes": 103535,
+      "sha256": "5e41e6d6e0c6ecc123799bb684e8809d68cd9f2168836cc010b1b0b22916e3bb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000028.parquet",
+      "bytes": 101781,
+      "sha256": "5018d5c69e6a6bb6eb4175fde39550fa48126458663e77662353b0541b90e5d6"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000029.parquet",
+      "bytes": 94783,
+      "sha256": "34c56de04cf9a7fefe4d3b36732281108ee015159694387cb67a3b120b0d6662"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000030.parquet",
+      "bytes": 113570,
+      "sha256": "6b83242370946592b74cce34ffa04a1cbd119c74a1c141cc7a5920bc901f09c8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000031.parquet",
+      "bytes": 107659,
+      "sha256": "ee6135578d5be795d784a8d550221e1c0f9443cc54d5d8e2c2282292eb5c2968"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000032.parquet",
+      "bytes": 111815,
+      "sha256": "0d18caf854375894bb53c7ebde15ae6fa72bbfebb9460f3e3e9e6992e41d323d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000033.parquet",
+      "bytes": 96562,
+      "sha256": "aedd2d0e172be0f207929a81f30beda806a1bc557b66857b841154a14f6a74d4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000034.parquet",
+      "bytes": 104714,
+      "sha256": "37dbe165a5ca15f5f64cc79b4f25b3adf775313704839fc741c332f1543ba91e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000035.parquet",
+      "bytes": 103262,
+      "sha256": "102340dd048a7699e0e2cc22c8e4bc1b20399c0f730fd56df0707629e34cef23"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000036.parquet",
+      "bytes": 103595,
+      "sha256": "596845047cbb9e60509f6e815a0626fa94c92bf8cd767bbec7083f8c0f836e64"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000037.parquet",
+      "bytes": 103231,
+      "sha256": "7ee64f4a8160580e6fc68d560320a002ed2f154716152db5e0c1807a88d55719"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000038.parquet",
+      "bytes": 106592,
+      "sha256": "17dbb5603b36aa0a7c1f1b9c8fdb2c01a034d4d1a0871a6d2da3ca9bfed2bcff"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000039.parquet",
+      "bytes": 99093,
+      "sha256": "6c6c7d6740a326b098aabfada3fdccd47e34edd7f452b2587bd0b90c4e48e750"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000040.parquet",
+      "bytes": 102227,
+      "sha256": "9d59504875e50cf9b2e7819cb594190ceb5a6a4a7a31dee57e710fb195e0ebe3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000041.parquet",
+      "bytes": 101520,
+      "sha256": "59f055983ee6aad69de64afb7564ff2c3fb3bd0bcb11752bfc8968d69cd99c1d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000042.parquet",
+      "bytes": 100128,
+      "sha256": "927aae8815957508adb8d917d8b6c4b6c097400763870d81587533e1c099d482"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000043.parquet",
+      "bytes": 108014,
+      "sha256": "dbeaa9bf088964c0601deffa9f314496e23110ab14f4c74d979f1ebbb002ac55"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000044.parquet",
+      "bytes": 113080,
+      "sha256": "ae65d9b4feae4b2d1298e720ac97622c83f901b8d08ebf4a7a7fac5a8b8f3940"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000045.parquet",
+      "bytes": 98060,
+      "sha256": "f721395b6b961576a7f2617edc4bd6461250b738437d907191e623926ed5c78f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000046.parquet",
+      "bytes": 100408,
+      "sha256": "930815e1f62d1145d8133d9e9df8e6f91e77d06404a23f3d6ab4c85607bdaf7d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000047.parquet",
+      "bytes": 99986,
+      "sha256": "e2cf1a124df5ee67a857005cd4dfdddc4bbb5cf08501cc8f9669285239f9b1c0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000048.parquet",
+      "bytes": 96818,
+      "sha256": "17101d67e7a0e2ad0fd3ac557482b01c8701954e389d085eb4bd790ce673ba8b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000049.parquet",
+      "bytes": 108736,
+      "sha256": "dece596ab863aae8ac7568d9853f740da1a7d318e67a9bb4a1b51c0c1a2fc5d8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000050.parquet",
+      "bytes": 100234,
+      "sha256": "0f91406edbb29d3fcea0b8c215d8315b1a9ee2e34b4c5735375e09cc1bea4bf2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000051.parquet",
+      "bytes": 96783,
+      "sha256": "fa9c794b57467de5475bba7f69e4306949cea9291da1cdce64b70b2fd84560c5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000052.parquet",
+      "bytes": 106656,
+      "sha256": "de44f4e3f1857980ab77985ba2acb297479167214d425415740a2b80b28772b4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000053.parquet",
+      "bytes": 102211,
+      "sha256": "e31809236c6ef495ffe55f10094ea5e37c311ee96a18f0af80af59b28e687f40"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000054.parquet",
+      "bytes": 102757,
+      "sha256": "5da7676361419e4e0eb38fffb19de419ccadee72830a91470caaa3cddc0c3247"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000055.parquet",
+      "bytes": 99781,
+      "sha256": "f5244c898f14c23b4a67cacf68098e8f223f096066cec4e5823238027e4f0a83"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000056.parquet",
+      "bytes": 102677,
+      "sha256": "e52825e2a8cf430d1168c58de0a6ef3fb474f1b90874030830bc062d07d8e639"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000057.parquet",
+      "bytes": 106151,
+      "sha256": "b8d07682a585f0ff866466ef3ca02dc9f6abf5bbfa79b6730abc1499601766ab"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000058.parquet",
+      "bytes": 103758,
+      "sha256": "d9368e5c89c72a0ec64bd674e48036e8a0b9414a26baad4b8476208201d45d42"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000059.parquet",
+      "bytes": 97738,
+      "sha256": "0c080cfed99ea172e4a7f06d622bf507ba3cc6255645233a64ca03907de3ff9e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000060.parquet",
+      "bytes": 98469,
+      "sha256": "6ff703ce7774dbfb51991c04b5d5245669b62ebac9ce22c47b7e75370ab5a65b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000061.parquet",
+      "bytes": 99364,
+      "sha256": "ecbbeb302c63d9072a80a536b2f346f0dc82e5acfbb2d5a2867b8c86ef65886a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000062.parquet",
+      "bytes": 100421,
+      "sha256": "f867b428a1b0e582840c4622f6fecc8d7fed5af80c5379a8351aa0c8da345c99"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000063.parquet",
+      "bytes": 111357,
+      "sha256": "3db41d134fa11f3eed0d81224c7ae0cc09c757d776fbbab19b7e00b8666d406b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000064.parquet",
+      "bytes": 97760,
+      "sha256": "d55a61a7589e96c060a3f09fcfa27ad13e7fab0bb23ecc7933825f009b562876"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000065.parquet",
+      "bytes": 100178,
+      "sha256": "78d9fb5c774555ffb4d8e811afb8456b0b5be02f9b43418b8127e787e51eb1c2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000066.parquet",
+      "bytes": 105087,
+      "sha256": "0ff13d49e57560b61dbaf999deb0edfa2da8ce7382e217bf321b92795a4a74a6"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000067.parquet",
+      "bytes": 100715,
+      "sha256": "a6f8e8e238c46756da0bf6f80c691b3364c5913f479b2a1b94e3836b6ba6f223"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000068.parquet",
+      "bytes": 107376,
+      "sha256": "12e573f721f79293a7edf96573e86b480d1aac12e47c9a505959a9cd84ddb5d5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000069.parquet",
+      "bytes": 101178,
+      "sha256": "632de5a4ff0d7b86b0dda5e65ff1656aa397c54dd5628efea7ead755390dc11c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000070.parquet",
+      "bytes": 102399,
+      "sha256": "fa2e2bf6d3f0022924cc94eb917413382b83f072e521e50ca9ece1bad38f0953"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000071.parquet",
+      "bytes": 109728,
+      "sha256": "c5f73b77923b92129143dd6e15294f62e55fb6b1d83d3e5691d655442570ecb3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000072.parquet",
+      "bytes": 106127,
+      "sha256": "a94c994504e8ddad27b6e0f316bdd7156c0b3dd0669f2f1480df5f89b1f938b9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000073.parquet",
+      "bytes": 107016,
+      "sha256": "684aa1657ae47be7de772dec9e767331377a6620a989c83603927fa358f61de3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000074.parquet",
+      "bytes": 110140,
+      "sha256": "17772eccd1745a9c1897d4a4f7a1cb6c03aec6843e097628abc2bae3e6104620"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000075.parquet",
+      "bytes": 106017,
+      "sha256": "0e028a5904e2d02f99977e4d944cd093cb019cb91704f9cdffdf727fea085095"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000076.parquet",
+      "bytes": 100895,
+      "sha256": "86cc6832c5092df579decbc6a8aa5a51b3f6fbad5bd79d9c82f7595a818807e7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000077.parquet",
+      "bytes": 101285,
+      "sha256": "acdd9d3821a128ca890fc0b2c48a6d60b973d494a6394f89a06e48c5613569b8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000078.parquet",
+      "bytes": 99606,
+      "sha256": "6ab07121f73d2f334a390bea2a4399b6a99c1b550d90815e45c262760f88f1cb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000079.parquet",
+      "bytes": 108117,
+      "sha256": "5390965aee098728afe5130bb0f3165b330e0de377f8d34c3a547163465f1e51"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000080.parquet",
+      "bytes": 100165,
+      "sha256": "40240354375a858d2e9766c977b7ab74dc0147d65fb9f12c5b20f3fa3549ae89"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000081.parquet",
+      "bytes": 110174,
+      "sha256": "034c2e9f92689020ee33fe0e0be86a6db2c11f39e4eecbe24fa431e42075a46c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000082.parquet",
+      "bytes": 102291,
+      "sha256": "3b8c6163a95ba42e1264ca813d002e6f9b8278cb22b88e0e7fc505db8899f0cf"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000083.parquet",
+      "bytes": 102059,
+      "sha256": "cfd584ed6ce16e84674c8a367206330ad2a0062c182587c5f8882d67b77e6d11"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000084.parquet",
+      "bytes": 98143,
+      "sha256": "88111c4aee58c80f5e501967658972002516011dba705eb589314f5c999da997"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000085.parquet",
+      "bytes": 109810,
+      "sha256": "b69e31d0bd38a319b186c04383035bebc2bd3dac213c9ae87757d8ddf88d6605"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000086.parquet",
+      "bytes": 100559,
+      "sha256": "fdfa7b90c17a1def95c9b32d51307e84cb143aa7fca7b8f1280e27c5e15d75c5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000087.parquet",
+      "bytes": 98956,
+      "sha256": "d37f23515d5b98ebe9703b2f70069a6d4844e283c54a8b9b29389c834d06215d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000088.parquet",
+      "bytes": 108540,
+      "sha256": "332e973726d7e3237b662b551503c8ce41a7da09cb67ae134469133c5410c150"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000089.parquet",
+      "bytes": 111398,
+      "sha256": "e677f638d5ad8c373c2dd4bb0344e024b2830826d3e270af8f3ae12aff14b364"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000090.parquet",
+      "bytes": 105962,
+      "sha256": "2c044f5726a8a4a88a09d6e509fae9f53d3e175f65b62b24dd60a51e5116c3d3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000091.parquet",
+      "bytes": 99434,
+      "sha256": "5056820bc8179ec5f2049f152cc9da0c9768afce2ad6f7b1b01c584263757acb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000092.parquet",
+      "bytes": 99177,
+      "sha256": "0f6addf6cb8517e85cc54dbfd9f666698e94758a99bc5ad3fe49a2fde2bdf1b2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000093.parquet",
+      "bytes": 100412,
+      "sha256": "23eff44ab6890bff1db82a72384091b0ebdabcbd186e780caeb8a65fefeb6aef"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000094.parquet",
+      "bytes": 99429,
+      "sha256": "104055fed2c5b5940896792161a8bef0d5d7cb78e7985dae3582894577f4f875"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000095.parquet",
+      "bytes": 110651,
+      "sha256": "93a839606f17dd415b051cf9642afd1354caac1d8e963036f9ba0d9fdaaeedff"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000096.parquet",
+      "bytes": 108568,
+      "sha256": "1e9099ae77e8274193bfbaea71680def57dc015ea25845f7c3a4d942544d2e2e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000097.parquet",
+      "bytes": 96919,
+      "sha256": "227b445096c44d8c50ed3f69d22196036ce0d6a06becde8867172e9bbcd22aa2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000098.parquet",
+      "bytes": 103855,
+      "sha256": "b240c2bcae8ebcd49effac41b2765886dec04da4871b54f87e006cbe75e5e1bd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000099.parquet",
+      "bytes": 98052,
+      "sha256": "4e0dd178f6ac5481b0640bc38da634156b37be76f87b200f0b5fd23a04ab5f0c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000100.parquet",
+      "bytes": 101260,
+      "sha256": "035deeb5dda49b634d500290740415ac257d84347230583e713c46fefb2cb1fb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000101.parquet",
+      "bytes": 94711,
+      "sha256": "b2964fdef1601239138f47c62fca980b06df294077c585624d4ad5451d55a64b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000102.parquet",
+      "bytes": 98261,
+      "sha256": "813e4e0cd0ea517701a5277d2df2744a4b1b5dc1265a712148ab410a43c02864"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000103.parquet",
+      "bytes": 110817,
+      "sha256": "117c9a011ae229c831d5baf85871c967e2e4b24d8a192061f87b88ccd04ca8ae"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000104.parquet",
+      "bytes": 102023,
+      "sha256": "b71ee51ec7d25bb66f427544ca66fd8d4af1958bf154ce7d0118e9e0edcc9ae8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000105.parquet",
+      "bytes": 106847,
+      "sha256": "6e0f9d679bcc403eab9473cf88c2421dc6058d2a57ba025e67b637e3d6822313"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000106.parquet",
+      "bytes": 100427,
+      "sha256": "de2a4fbca2d70aa78660fcd9ec69ba39f35f6d0d726ac958e3d84230a30cb742"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000107.parquet",
+      "bytes": 103126,
+      "sha256": "ee010a3dca2b2a4cd42a8438aa5badb939208ce849ddce9e4e68aeded6406744"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000108.parquet",
+      "bytes": 102552,
+      "sha256": "d470135c497ae7cd302385ca11f98946e380edde06a8461d20a83a5d35725dde"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000109.parquet",
+      "bytes": 103049,
+      "sha256": "614b19131c713589433130a96be413f3546982bafe52aec027be1d2fe96dc8ea"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000110.parquet",
+      "bytes": 99650,
+      "sha256": "c96bf77e0cbe04a1d4bf75dba9f9d14ebb3ea291cb02a7a166fad6fc47466c6c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000111.parquet",
+      "bytes": 95108,
+      "sha256": "e7cefbbaf3c0e35b0afaf455c453f8e5396d1a89b85f9c30c33b69f64ad15dff"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000112.parquet",
+      "bytes": 101673,
+      "sha256": "7426a0606442be622cbaca0d27c97f8ef438cbe78f0ff6a1f1c776628eafb221"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000113.parquet",
+      "bytes": 101658,
+      "sha256": "4a3e763ebe25cd0408fccabf91bb16de16102b79b26626f8dd2e0d50d82f8705"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000114.parquet",
+      "bytes": 101342,
+      "sha256": "33070e3039630402835171fd708dde233de0edb37bf193e7828f0fb16258f99d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000115.parquet",
+      "bytes": 97279,
+      "sha256": "86926cf03d2123c2cb51a48bd8114a227f6185a83d486e6e480f59902bddb9cd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000116.parquet",
+      "bytes": 109491,
+      "sha256": "c327c05e779b4d14d4cbc7fa38211f8a939d456e7d003845d6e78f85d724d0a7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000117.parquet",
+      "bytes": 102906,
+      "sha256": "72e60c658a52d15e0846ace41c6b34709aa71ddf7769361279f48b1f2a37d0b9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000118.parquet",
+      "bytes": 105795,
+      "sha256": "123e9b483e0916d5d0474912a7d8ecb274879b4773c095d129c6205944a7df50"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000119.parquet",
+      "bytes": 101131,
+      "sha256": "995f0908b1a433b6a2e753009417ed5f7ca6e5744e74fd918e9d2524718077a5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000120.parquet",
+      "bytes": 99048,
+      "sha256": "e3a81ec8e49b65ad331723e9b9cc1e87b7e87698cf95aecc3035f88f6342feff"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000121.parquet",
+      "bytes": 104714,
+      "sha256": "01fc216cc7be2eed315c061da2651aa3f750d1d35203067849e4a37fe0a2edaa"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000122.parquet",
+      "bytes": 96693,
+      "sha256": "23f96b7f741937ac7cb9970d410abfb9d82a7705aa1f4ea308a4fece5425b6d3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000123.parquet",
+      "bytes": 104793,
+      "sha256": "4e836b9f2c7ea409ce1bce06d27aa6f35fdeeeb899ea6427661fe2d10f2a8641"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000124.parquet",
+      "bytes": 99692,
+      "sha256": "d7ab41894d09faab868b332f315324f045d58711659e070b8b75b30836b73f87"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000125.parquet",
+      "bytes": 105442,
+      "sha256": "06ff1d73884478f65796f4993b633604b5d418687da4ab32e01b5c21e916cef4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000126.parquet",
+      "bytes": 109733,
+      "sha256": "a17379875646c4dbe3e7d4bc4f08139614ed7e47df801b5245063feb3be51d5a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000127.parquet",
+      "bytes": 101535,
+      "sha256": "a00a3153c802e184233d3cce350f1f96c5562bc9304844581528831c6ba54236"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000128.parquet",
+      "bytes": 99289,
+      "sha256": "23e93b6e0d72bb428ff02ea93f7e592a655fad84c7742736b7adfad21f6af21f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000129.parquet",
+      "bytes": 106246,
+      "sha256": "64b489a5fef66e1c6d352a848c3dee0ae54c5a4634643f6b152d9f58b410eb45"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000130.parquet",
+      "bytes": 103234,
+      "sha256": "8f4a359cd4a7c03e85b158784f6de147adb527384303af82ed5a23b80f0f7fd1"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000131.parquet",
+      "bytes": 102485,
+      "sha256": "ef8f8f4959788fc5aa6103d27547f4fdb7978378b55decb55d4e93a2787ef8bf"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000132.parquet",
+      "bytes": 106823,
+      "sha256": "0f42a50a7efc9197ed6b22a9a22ed905a152560781fe118d66658a9763f6d387"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000133.parquet",
+      "bytes": 98070,
+      "sha256": "1962f4b4a5648699cf37ebed9e662188e95e00e0a08afb0de1c4674246b2514a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000134.parquet",
+      "bytes": 99796,
+      "sha256": "f9ed5beb7d6e376f43e6a96666a0c0202967b7e0b58ce440037573d8bcbef6e9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000135.parquet",
+      "bytes": 98527,
+      "sha256": "5c512c3969c8f6aa9a2f6fcc85645e6f243bd628bb011a7dd8ccbd2c08d8913a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000136.parquet",
+      "bytes": 101295,
+      "sha256": "dc3e582a33b85dc92e4b0379b2d34874a086eac219fe4f1bdd09c8c4dc59c3cb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000137.parquet",
+      "bytes": 100861,
+      "sha256": "726e78f5f1fde383663631ba1f821ddd6d050db7974098f0b93b605fb606b629"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000138.parquet",
+      "bytes": 96318,
+      "sha256": "b22d3899095d890425f3f3936e7d54df20c09ecca09c7b604e6f2e17507fae74"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000139.parquet",
+      "bytes": 108720,
+      "sha256": "cd24a8c22bfb3aee99c69d114d42ea6c636c026523ef1bb5f413795ff666b9c5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000140.parquet",
+      "bytes": 98186,
+      "sha256": "8738eaa0f04d3efad6b4bf21263cc380a426c7546be0c451523dc1b7c0a2f5c7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000141.parquet",
+      "bytes": 96848,
+      "sha256": "9ee20e582a3d5a8c18801c311e32b3e7cfc2a139f5f207025a394684ab9ff525"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000142.parquet",
+      "bytes": 99230,
+      "sha256": "b462ae815922551acd4d41b8bb49103a62efd5ed30d542402b5db5d1580ebba8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000143.parquet",
+      "bytes": 106450,
+      "sha256": "526cbc6bcb8398614e996b6576a8c40281f0eeeb1c329ace55b7859a41cd5bbe"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000144.parquet",
+      "bytes": 102158,
+      "sha256": "84bd117ffc073d180f8654d215fdfb48eea7619ca4c78ac1bf26e4cca1f308cb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000145.parquet",
+      "bytes": 100543,
+      "sha256": "5b6643642c0e2ab9c6f2f3dad82960dc91a2d783125df4916997116c601db114"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000146.parquet",
+      "bytes": 109368,
+      "sha256": "36f577663c62366b73da533f3917eaa87cded270a11369e9793ddea07bf8788d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000147.parquet",
+      "bytes": 105390,
+      "sha256": "5e8a47837322a5931278c3c39484a9debc4d20b2c3c7fa42673b3086be91919a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000148.parquet",
+      "bytes": 106930,
+      "sha256": "09205cf5cb892c5396a29c86258272171a65b71c9fb73fcc6408220052cddd95"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000149.parquet",
+      "bytes": 104290,
+      "sha256": "7339b73cda49e28da73f6cdf0a612d73932094b6c360ea6cdbaa9693cb8263ad"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000150.parquet",
+      "bytes": 101864,
+      "sha256": "fb68bb6711604a2087b8a7f3a67ebd2756da0dd0856e791e8fb865426e9dd478"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000151.parquet",
+      "bytes": 98154,
+      "sha256": "701ff021b192599d737378312e5b036acfd3bcf94c13c97399e68fcb7950f792"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000152.parquet",
+      "bytes": 102889,
+      "sha256": "7064d898255569dd9c6638b244448d270ca8e5ca9728244288c1412e6a2f1326"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000153.parquet",
+      "bytes": 98301,
+      "sha256": "03d38a6d69d5eb8711727b44c4e40e42de04fe2c17fc75ea1507aefa3bb13961"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000154.parquet",
+      "bytes": 104954,
+      "sha256": "3f471bd165e3e8551493dd9abad22bccef455b7b03751773da603575b8a03b0c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000155.parquet",
+      "bytes": 106631,
+      "sha256": "dad111261194b0fef73a45f221b51b8aa99b879fd68870d3a062b2a05bfd6ad1"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000156.parquet",
+      "bytes": 104466,
+      "sha256": "54dfe4caf1ed6239a8f18ecb483a263ecb83ef90b2df6287b682312867e1fabe"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000157.parquet",
+      "bytes": 103964,
+      "sha256": "95480777b47410e89a2b843861cba449d589bbd532de426dc5437f52b009b839"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000158.parquet",
+      "bytes": 99446,
+      "sha256": "5830dfe2158077e29e7240aef11f0bf5ed99e600c46a8587e96b23a13da94718"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000159.parquet",
+      "bytes": 104770,
+      "sha256": "ed1f8935c135c5d919a20931baeffef1a22d86cf4057c37c7f35804c8ba37369"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000160.parquet",
+      "bytes": 103507,
+      "sha256": "b982541469c3e2a4ed59e58f692fb7fa159c8067eef41c251e1a3484619c6792"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000161.parquet",
+      "bytes": 107075,
+      "sha256": "a4d84f2d9d1a3df5816e5c9efe6f0e31e5d60f07580608ba3ba5c00af431cbed"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000162.parquet",
+      "bytes": 111652,
+      "sha256": "d14fc574b8801c9d9d42c3c0fe6af291c770d30efc1e98ed9b832ace941186e7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000163.parquet",
+      "bytes": 104508,
+      "sha256": "9e06a33f2a25f99ec3536ae060a2e9872fb4c4aad8bb107e20c4fc0985b332d3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000164.parquet",
+      "bytes": 101275,
+      "sha256": "2bf9f18f6050b957d9474596bfb914e9c47897f25ea3caaa6f5dd61cb930d391"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000165.parquet",
+      "bytes": 101246,
+      "sha256": "ec537004dc0d82a2bdc96ea65254cea7bf78f7e49a1f231e0ee74ca5747d2499"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000166.parquet",
+      "bytes": 104477,
+      "sha256": "511dd78beb8456e3fcafc71a1f6a38a2c75c81537e7d2b5d794ea9902519df0a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000167.parquet",
+      "bytes": 105017,
+      "sha256": "275b0ef79e593d71c1094fd92c02df4884215f15f2d61fc94017acc46bcff523"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000168.parquet",
+      "bytes": 108765,
+      "sha256": "476ffd41b42c29ad7fdc123e02f65b098388e5ff7ef2c7b27a0e9aacae986e2b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000169.parquet",
+      "bytes": 109089,
+      "sha256": "7ad94fc115c2dc9ae46560938c5451be64f14e431d756fc26cca817e6e6ad8cc"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000170.parquet",
+      "bytes": 104640,
+      "sha256": "b4627819f1118c5042ae777b7a92c05d2c8313ace65d5b115c851d43092847c0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000171.parquet",
+      "bytes": 95882,
+      "sha256": "88dc6b9ec0a07866d2b5fe0116f6138c1cc7af1f3a586d98387f3a9d1ae92ec5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000172.parquet",
+      "bytes": 106888,
+      "sha256": "8655cf21709b4bca4979075970b039bc02972baf11bfd994fb3799d0f651d6b9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000173.parquet",
+      "bytes": 105988,
+      "sha256": "8776434d0d26b8f3089c1ae4b0798469c32e70e077701aefc0805cd3820942cf"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000174.parquet",
+      "bytes": 104917,
+      "sha256": "9d71c2948b42d03a56b996be6278c990b050528d69f71cd5ade6a3fa3149eb42"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000175.parquet",
+      "bytes": 111561,
+      "sha256": "ea5375b543e5eda4d2bed24db3f176c27fd1064237afa98e3a3151fbe87b4a79"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000176.parquet",
+      "bytes": 108578,
+      "sha256": "11f2905943d657786f10f0300f033d942876e3923aceda0114d685f50a680a68"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000177.parquet",
+      "bytes": 108008,
+      "sha256": "c45259a40c2b00eeed545fb2bfebbda4600918d808708bdbfb1d3b305a50fb11"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000178.parquet",
+      "bytes": 95799,
+      "sha256": "1dba4a61f08d7991fdd81ab502646061bdf323ffe8765d8e9c1a28782105a75e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000179.parquet",
+      "bytes": 103387,
+      "sha256": "cf6fea60e56e985175969ccb5622828f7bbbd459702afa72ecd5db371b901c93"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000180.parquet",
+      "bytes": 100945,
+      "sha256": "b02ed48d0061c8caf8b3c738b453d4cb7a763f408de6ca7e7d3d238c2f172076"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000181.parquet",
+      "bytes": 105590,
+      "sha256": "93a2b7bff5f9861a6c5d6e6753f5b0f5c515b7444b0eca5a273a5947a146133e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000182.parquet",
+      "bytes": 98087,
+      "sha256": "c1e2cf711bccde4bdc79609675f5ef1fe6d630d29ce8b26b4e4d06b53089714d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000183.parquet",
+      "bytes": 101855,
+      "sha256": "2063b85780c67188c3401133e72d254d7648304c509fed82af364c77bac98089"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000184.parquet",
+      "bytes": 100139,
+      "sha256": "68249072f57d33c46302b69a821acc25feb7a3b83d4dc2181b3c6c48a14e7f5c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000185.parquet",
+      "bytes": 94108,
+      "sha256": "8507e5e6e5d7c33a33b68362f03434498ebf20f208a604fb09876b0dba542394"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000186.parquet",
+      "bytes": 105146,
+      "sha256": "b878c28d988ad4dc7b4fd1e892e8835ce04885502d5cd17e8a66e44e1b12f23b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000187.parquet",
+      "bytes": 100337,
+      "sha256": "e8b615646fded48d8d10b6b1df223349d88248dbde34d478ec4c7e4c13c19727"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000188.parquet",
+      "bytes": 104745,
+      "sha256": "7bb819584d8ad6c6f13e4be843d0581540ad7687bd8b01e62f905fca9962d761"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000189.parquet",
+      "bytes": 99445,
+      "sha256": "dbce1671c0e3107f39b288b65306824eca85971f58bfe2a5d725c525e5808df2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000190.parquet",
+      "bytes": 105990,
+      "sha256": "169e35193794327b48354be0d4881d0ed1f9eaa7ef5806daccd6ee065e8dd9ad"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000191.parquet",
+      "bytes": 96939,
+      "sha256": "b87a22baf306e689b75e870de398cdd5c7de16bd1142cf2ef55bc956b7c2258b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000192.parquet",
+      "bytes": 97387,
+      "sha256": "96fd34ad0d49b310dcef2f2baf19dbbfd156bfb92d1d960395b49ee365fd518b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000193.parquet",
+      "bytes": 106607,
+      "sha256": "bcc4609170659b30b0006092ad3f261bf6a25340bf0fb3610f7cf41d64bb6c3f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000194.parquet",
+      "bytes": 98311,
+      "sha256": "0de1fbd00ecc5c885a8d91d5cda46d64ee040eb5c038a445af526e7fb696c885"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000195.parquet",
+      "bytes": 110066,
+      "sha256": "c6246b866969ff0ff0b3d36dbaffdf513d8fbfca65cbdc20679ae46bceb72dc0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000196.parquet",
+      "bytes": 107143,
+      "sha256": "4d11d1cb272b8aaae5781167e1dc9267c486fe97f56116a5576899935649fe2c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000197.parquet",
+      "bytes": 101763,
+      "sha256": "03d56eacf3b8516744b67f3794b7d369a39c19f57348d5edf2f98e3afc061cb4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000198.parquet",
+      "bytes": 100805,
+      "sha256": "9164afba215f89fb7ce32d8a8bb55ba9012e34205807d9ca28416ec1c8b600e6"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000199.parquet",
+      "bytes": 106165,
+      "sha256": "1e24ce29a5b4ab861bdb73e57fff23cf490001f26806f3203eb2bb5810806260"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000200.parquet",
+      "bytes": 95033,
+      "sha256": "f9ae7a3b371e3954f80cfa0a34cff30999bb2c536360ed93ab9108e91b845d2a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000201.parquet",
+      "bytes": 92598,
+      "sha256": "15c3527be6e8a26bc7cfd11e002cef14335220e64a825711c37b6826134c4bf0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000202.parquet",
+      "bytes": 91195,
+      "sha256": "13aa1449bf4f39983cd6504f18f26b2f89fffee9f7d9a9c168e9bb72b1ccd609"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000203.parquet",
+      "bytes": 94474,
+      "sha256": "06b5e10d32b6c256f01093a72fcd062d6e172267752afd0c66247d0ed274c4e7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000204.parquet",
+      "bytes": 90876,
+      "sha256": "3b5b725e017f6a2bd93a241283f94ba07db2ca2fdf87336b62a7c31d4bd1bdf9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000205.parquet",
+      "bytes": 90112,
+      "sha256": "5b43ab25f930f51072025e60d95547092e000cdbfa500e978a5d1ec9228616db"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000206.parquet",
+      "bytes": 93981,
+      "sha256": "b629f07d536846c7722dd6363a6dc74a3137327fd2797efb5a13c2ba0be4e5d3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000207.parquet",
+      "bytes": 91421,
+      "sha256": "d4c002ecc78576fd0a3c9f18bc5f1ba58ba46ea2403adcef0e2341c4393edad4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000208.parquet",
+      "bytes": 84724,
+      "sha256": "882a4a1233901dc1760eb633cfac96f5ece616f245242711dca384ec01f9f839"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000209.parquet",
+      "bytes": 103325,
+      "sha256": "b0f1bd0ec1d2f38877e0584907f01598ab8f1255fbc2ec461f08eace338a276b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000210.parquet",
+      "bytes": 99480,
+      "sha256": "62ceeb956bee04f28ec468296315957c664fac97110b6959f851d165e09b8e13"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000211.parquet",
+      "bytes": 96177,
+      "sha256": "b4271bd210c89c6785edaf675cd2ba520edc520e27b4eecd9cbd3a2dd73e27ca"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000212.parquet",
+      "bytes": 95923,
+      "sha256": "964a54f954c2198d40341e49ad4db9cf70665ab981604005110716d3e903d083"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000213.parquet",
+      "bytes": 91385,
+      "sha256": "679479e78be55f4dc1691e20e2aa71b33869a839d6e8c7d88430ab399429b65b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000214.parquet",
+      "bytes": 98448,
+      "sha256": "02e920b45bc85900ff51c36e3f4e4b6f0d26c83edb944f8802b7722a2fc3d763"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000215.parquet",
+      "bytes": 93810,
+      "sha256": "224c8495e28dd1050fa623f0b77b193ee3f52b49ccbd0930843cb15c975c7c77"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000216.parquet",
+      "bytes": 90653,
+      "sha256": "ee0704d6e606d2ea294fadd68510069e18ee5e54950f7e46fd6487f0c0d24c53"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000217.parquet",
+      "bytes": 90061,
+      "sha256": "75cb6b7aee2eed19e9faec0d2f2d23f2d0907a9ba7514bb10aa292edb74d82be"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000218.parquet",
+      "bytes": 91481,
+      "sha256": "977dae53d0fb6fc6a06fda5c8cf5f19a1177fe3121e201a4a4cd945986b202f2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000219.parquet",
+      "bytes": 101352,
+      "sha256": "c7544a80a1b2ef067a711b8d9831b2cf95cd4abcbfcb5362d0fd9ee31231ab8c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000220.parquet",
+      "bytes": 88949,
+      "sha256": "3139ad7da427b164b0c049d68457a9586d3212026e7b70fc893b2d67ac850de1"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000221.parquet",
+      "bytes": 96219,
+      "sha256": "9075461959e765d8324c2815228d588f5f0ef5f81d4959807c2fd178c5dbfcd5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000222.parquet",
+      "bytes": 105733,
+      "sha256": "930b65df97ec99ebd3aa6c9333a4591b1072f0d882726a4cccf613e576c5db09"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000223.parquet",
+      "bytes": 102828,
+      "sha256": "2c03b31f7ff3e3e832d605cba028758eca0e2cc9c92c57f14666f92ca379291c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000224.parquet",
+      "bytes": 94212,
+      "sha256": "4813b0a0fd2ef98f90182923e6de2143762f483064304a06f067587bac796e88"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000225.parquet",
+      "bytes": 104983,
+      "sha256": "ac71d3069bab2c62835fad1067cf90acf1595b1e7dc971f91b393324aa95d36b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000226.parquet",
+      "bytes": 96741,
+      "sha256": "30032453f785a1d4894602719b2f1e91c072ff4cda22e226478beea2d55c7cc3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000227.parquet",
+      "bytes": 103530,
+      "sha256": "f56278b364fe487e4cc87d859500b65260589ff281279d6b49eb76d525161e9a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000228.parquet",
+      "bytes": 101576,
+      "sha256": "aaf28eac9d5c0718879898955302e7dbd9c27d7b193a4fae96c0e6d995041fe8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000229.parquet",
+      "bytes": 103655,
+      "sha256": "68d43f7c16f46db128ca478eef4a7870dc5a2b3d884931b0c0875ec249e701ff"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000230.parquet",
+      "bytes": 82239,
+      "sha256": "8bd784d3cf34e2316842ca5c3bfbbd149d625b84230562a717d4262a00c0229c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000231.parquet",
+      "bytes": 92673,
+      "sha256": "8d208e403508b63c6d661219b3a134a917167fc94efd58e38ed0e859644c1333"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000232.parquet",
+      "bytes": 94360,
+      "sha256": "a3ffd331d36e6f8a7aff3aa66782a62ebb5c39b4d649b82fa80ff8c6929191fe"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000233.parquet",
+      "bytes": 102637,
+      "sha256": "1b4d26f6e422a35ff450f5a4c330056e0e6c2e23d8da6da0fd13614cc48b5101"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000234.parquet",
+      "bytes": 92483,
+      "sha256": "fe6a06d412520285346a25b2233b2dffd7c4097ea9256fa14288ec2661703960"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000235.parquet",
+      "bytes": 90493,
+      "sha256": "ce2ad4f033f26903ad099a835bd2df1442da9f2ecfca976d7383a6d21b47bbe6"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000236.parquet",
+      "bytes": 97839,
+      "sha256": "a68098bdab059110c9d737eb4ba2ff9c9c8fdb41be7b0e64732cdcaed4e13743"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000237.parquet",
+      "bytes": 95767,
+      "sha256": "b07b95d8d8672504f4a255ba0864e1a711ed231c9678cd87b9d7c595be0c309b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000238.parquet",
+      "bytes": 96012,
+      "sha256": "37ff1150bb7ce7b75588c2acc2cd9dc2d3c1b9164b90a2269873d824ae5c416f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000239.parquet",
+      "bytes": 82518,
+      "sha256": "e4880a7622e8cc3116702bd2256c8ca0cf510ad0475137b94f896af7c00acecc"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000240.parquet",
+      "bytes": 102896,
+      "sha256": "168ddcda04d59bf0e4dd2ac58dc214b281999ef03daa59e99896fb94bfed5c46"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000241.parquet",
+      "bytes": 101777,
+      "sha256": "7500c05d6e58ffb86ba738a43c8b837b673c4ac90b3bb15ae705c60773b639dd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000242.parquet",
+      "bytes": 98823,
+      "sha256": "b995d116704475d363efa0836399af9f63376b8725a7b0ad940ad46e97ec2eea"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000243.parquet",
+      "bytes": 86737,
+      "sha256": "f81b7e9c0b242744deb39c4efa563b4c6e049c00905da30dc07d1ae6413ad73a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000244.parquet",
+      "bytes": 86813,
+      "sha256": "7e82f4e36b7212ac0066750877862d2dd4cf4abbde056f2f3fbe14a6703a4304"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000245.parquet",
+      "bytes": 97193,
+      "sha256": "473e6e96691f7aeb4ea24668888c3c9a6df58bbbd8155afe5b19ebfaadd06d23"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000246.parquet",
+      "bytes": 88832,
+      "sha256": "8ab88d228da589ca47a3942a783e324bd9ea83b79aa6229739da0852d64ea4a3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000247.parquet",
+      "bytes": 95426,
+      "sha256": "73b64fbab6a35df9831203f5047bd85a0bd9b46116334b98c5e76680a694faea"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000248.parquet",
+      "bytes": 87436,
+      "sha256": "ca8af8cf0ee42b79abaa68f0f44bd33558b23a6d45627d8f2cc6b1d202aade55"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000249.parquet",
+      "bytes": 99016,
+      "sha256": "9178dad4c0174dc36c39b65c792b0490c3cfb3ca5b1f0ae2902822a727331603"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000250.parquet",
+      "bytes": 92493,
+      "sha256": "8dfba84e78f7e65554b0b3a6460e192c6f3873904bb7e2c5d6344351fd44e78b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000251.parquet",
+      "bytes": 91414,
+      "sha256": "0da4fcd2cd689604ea8a9bfab19537036b589718fdae1e6bedac53eb53648292"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000252.parquet",
+      "bytes": 91661,
+      "sha256": "1beea662b340a7b0be8c9609ed19e1e9b1b53bada1da3c44181d9a28ec14906f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000253.parquet",
+      "bytes": 95354,
+      "sha256": "de61c6f0981b54893f10c9a8451b525511644cd50044737372eb4b601a060370"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000254.parquet",
+      "bytes": 90312,
+      "sha256": "5b1f7a47aab2ddeb9eada5e3b2ed335f2e8c2ebed8e5e042d6bf265d48ab25b7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000255.parquet",
+      "bytes": 92268,
+      "sha256": "3d73fbb0632fb585b1c0c23bed61446bd9f5d85ad407f7fabd000b9fbadfe74d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000256.parquet",
+      "bytes": 92205,
+      "sha256": "e0dbe8bb235ca49632c79eacf41c46f879a63ac5d1f62f7ad24c2819e90eccea"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000257.parquet",
+      "bytes": 87926,
+      "sha256": "34670e06d5a1a640a94b7378ac6385fd945468bce94907db32df0679366b2987"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000258.parquet",
+      "bytes": 88328,
+      "sha256": "6ea4fdc76fba904191cb136021db4dab0e179714c9f89b419e1029df89ad89cb"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000259.parquet",
+      "bytes": 94347,
+      "sha256": "a20f2b4ef1b7de5dba2054befc4706cc1362b5ccbc42bed6d5348a52b23fa299"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000260.parquet",
+      "bytes": 85644,
+      "sha256": "9f9ca023a8bb9301e20ca35a64b36513ba734b605658122bc22e89900908f023"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000261.parquet",
+      "bytes": 99672,
+      "sha256": "8d60a5db4e18060c5b033543b5bea25589b40c7ae41f06943299ec9756ed92c5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000262.parquet",
+      "bytes": 89686,
+      "sha256": "779382df2588c42d0d0f3722640cc3351ad875b03f740789ec4597176f08eeae"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000263.parquet",
+      "bytes": 87975,
+      "sha256": "f2c37de34e9dea27e9b842d4fec0f8adfb96b40d0629c11716f2a5ca0341c1af"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000264.parquet",
+      "bytes": 97799,
+      "sha256": "e6195ed1b5cbfcb97f4d7dbbaef7eab7ef1ef7a8657ee7301222eb2ab2b50868"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000265.parquet",
+      "bytes": 93828,
+      "sha256": "2223e16ad343164bf749db2b7de3cfa68b7d0450d650ec020d5d0ff9f1af6015"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000266.parquet",
+      "bytes": 93576,
+      "sha256": "e2399504cb82a01c6e8557bcea5d6b0fd14ed9c560b7b98f2aa3aa339a7c48e3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000267.parquet",
+      "bytes": 84528,
+      "sha256": "68f592511e7c38e927b908734b652bf568126beffd95e60652f825be3ad0602e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000268.parquet",
+      "bytes": 92850,
+      "sha256": "3ff9a1364044b8c97eac07e1e82a435cd6b80ba58ddfe0f1083e3f2c0b0d2c08"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000269.parquet",
+      "bytes": 106007,
+      "sha256": "a880d191aa3c85c266e3b6732d384eaa1d0460a13977268e76ea053159c391a2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000270.parquet",
+      "bytes": 87217,
+      "sha256": "3600277f2f1aa585ba45799b399ff9f9a83117f79a795a1d55808886c3357fcc"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000271.parquet",
+      "bytes": 89426,
+      "sha256": "bed04dfa432d175a0131674ed1d2069b1766f27e1f49777c9949d6b278a6a83d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000272.parquet",
+      "bytes": 91454,
+      "sha256": "e4245b1bf09e06b47e7be14ddf3802da51d4d07db04aa486672c2f1053a9c885"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000273.parquet",
+      "bytes": 92672,
+      "sha256": "3a88880d894e11b24dcbddaf2df6c123c71fbc83b027f4db4d578ed4b66e67e4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000274.parquet",
+      "bytes": 96255,
+      "sha256": "6086502043e32eac8b7df72e5501b0390f578bd21ef7b8a67ceab1304ec528fd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000275.parquet",
+      "bytes": 95671,
+      "sha256": "3646cf4c43639eff558396356a0c98389ca107691e892e82957131bf1c870033"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000276.parquet",
+      "bytes": 101028,
+      "sha256": "c5d8624629025b79f4901f259289c9b650d18cdd9c828e33146694685ba510ec"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000277.parquet",
+      "bytes": 85125,
+      "sha256": "0b73a6078f32c6e6179728b40ba2a9f019a1778ef489027ecfdd65a2391d6eb4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000278.parquet",
+      "bytes": 86520,
+      "sha256": "30ceb28f8e1c6527f6a1a984b93f04f4729127d40d24935437dd755e9708e14b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000279.parquet",
+      "bytes": 94599,
+      "sha256": "1f794f765217c31ce94fb87b08ed6af71aaabfbac44497fcf46e6b534fa8069d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000280.parquet",
+      "bytes": 93531,
+      "sha256": "bf79a40bb268d735c68b6e5359f0ebaa51b5bc2b502dcc64f3a64a7bc3653859"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000281.parquet",
+      "bytes": 88336,
+      "sha256": "968eab2804a1dbe4af407d45963bed262b73626d8574f601e7b84846b6b79ed3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000282.parquet",
+      "bytes": 87816,
+      "sha256": "5d56f76bab1f955a6649213ca01da2e2ed7af1f72f274077ad7503891de91620"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000283.parquet",
+      "bytes": 92801,
+      "sha256": "14368f3028504317302acdd2f939cc313bd78543cb0527cc0a4369c3e301be29"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000284.parquet",
+      "bytes": 92944,
+      "sha256": "1691d83731fa60ec68a4a933f442841ada62fd86f704bad45e71cf7afc12db59"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000285.parquet",
+      "bytes": 91142,
+      "sha256": "6d424324c51e5ff2d35dd5878ddde960665fd78c2bb29d00997f12ae3c88c4ac"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000286.parquet",
+      "bytes": 90803,
+      "sha256": "9f65bdb5532d5cbe0abe4e1ec3241e76c03a2afcf878ebea72ce0ad5721e3b08"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000287.parquet",
+      "bytes": 109169,
+      "sha256": "e7f36924864572b40236cefe6cc1fc9cb7c020d7ab2efddf042b0d54263ab9cd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000288.parquet",
+      "bytes": 90409,
+      "sha256": "f48ee7121cfad6d78c49fd862cf3e0b0ce4f7ff818dc88e5bd53dab8cb9613fa"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000289.parquet",
+      "bytes": 100675,
+      "sha256": "46a9bb2e06fb5a2a2cbe1c3d12d7a5624b89f2cb6f950cc40a6543f8cbc59c73"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000290.parquet",
+      "bytes": 94654,
+      "sha256": "4c66d417b55115f901f5610d2b54ab5c3a11b3b1508c4e98b13eb16341fd5854"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000291.parquet",
+      "bytes": 99672,
+      "sha256": "6962a893b31fd96cb1422ce8385d5dd7ec548ad23dca824d3604a47780c30bbd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000292.parquet",
+      "bytes": 103474,
+      "sha256": "6dcdfc387458e49c33c79723be3d0d6cc0ec4da03ee1e0089fa465177da1aaba"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000293.parquet",
+      "bytes": 95807,
+      "sha256": "68b127821bd544c76f5c87664176fb8b601194fea1d0708147a96ab67b658c83"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000294.parquet",
+      "bytes": 96635,
+      "sha256": "4a25b9ada20fe3b468c8e3a11e51cea440b23a4dcaf725c61356b7d56ee24c26"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000295.parquet",
+      "bytes": 87477,
+      "sha256": "27e58685de169555a586273ecf3189bdf783e3c94e5d16a61f56860998fe57b5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000296.parquet",
+      "bytes": 100695,
+      "sha256": "af36aa77d43f1a935e4d9f7fcddae22e62c757e61d7a9c107a35a7b52c433b8c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000297.parquet",
+      "bytes": 91713,
+      "sha256": "8fea0fbfe845077813c4cf2b0a5b1e65b7bca8857826ca82afdb1eb51eeaf8f7"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000298.parquet",
+      "bytes": 99575,
+      "sha256": "b2c00bf6fcc2524ee58f3d49a373faa654cb4c37dc24eff8c3b4d57329dc40a1"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000299.parquet",
+      "bytes": 85832,
+      "sha256": "3e618897d53bd9c394da8ba2f7b6d21a1ef434bd66e02e0888a7b4e6ee0ccd72"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000300.parquet",
+      "bytes": 93135,
+      "sha256": "2f002550316326c8755f31da2b6636da589aaa2aa9e7b3e23fb24f3ccd8b7008"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000301.parquet",
+      "bytes": 93019,
+      "sha256": "9b7e64c3e527628717e716d5010c808def9843558c0cc98b6ab654076cfe769f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000302.parquet",
+      "bytes": 91748,
+      "sha256": "1de919d8e48c4470ae971d1c0a75816a7f8925eeb2b2d586085f2bba9eac0d69"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000303.parquet",
+      "bytes": 108118,
+      "sha256": "06116594da8540d3240f76c284b4586c26389353cb392825837be960e2b67081"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000304.parquet",
+      "bytes": 93320,
+      "sha256": "7883cac11422aadcf8432f9b23aacf22fc23002d5e0087f749e87b60d32b59cf"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000305.parquet",
+      "bytes": 95023,
+      "sha256": "61d238ed2e7b799fc7075ec201d9a75ad5b84b9f490496622274e77ad4b24440"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000306.parquet",
+      "bytes": 90857,
+      "sha256": "fa1c335d6fc0d9c38298c1a2adde702936e2420bfd13bb62267f6aa4583d64ca"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000307.parquet",
+      "bytes": 99433,
+      "sha256": "f7381977c59d5e90efde0a775fd20a90a37f5c0137e9f92087456e437b6d70c0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000308.parquet",
+      "bytes": 87833,
+      "sha256": "63ba88d271b2b8f7306b95747204bbedb53312ee69df3d352dbf04e25654c151"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000309.parquet",
+      "bytes": 87604,
+      "sha256": "d796910a484be6a5e1d2a12ac2076c15141457cd254c59258e9074df641f2bb9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000310.parquet",
+      "bytes": 89859,
+      "sha256": "2b9042ad36128afa4a0172cd537bf7f408570c5699673d7651d976571cb670e2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000311.parquet",
+      "bytes": 93414,
+      "sha256": "3a348a095d07a8ee5ae533e8233e8452917748c877ab3d38f95cccb92c85f70b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000312.parquet",
+      "bytes": 94598,
+      "sha256": "538e104f92fae546f2fa5831a6872934b23ebda8ee97e52c00969efcd7cde19c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000313.parquet",
+      "bytes": 98579,
+      "sha256": "38333d9e5a37d63ae99156c346b9be122123464480c334b87c967ad6e109e68d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000314.parquet",
+      "bytes": 86804,
+      "sha256": "2a13fe746c5210a45f0ba984e18a37b1e8b4ab16dd1cafae55f3138b8fbd585f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000315.parquet",
+      "bytes": 90633,
+      "sha256": "64663e1275d512fd2a556b6bc233e0293497a8d34f3a72f4333291c38e63e950"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000316.parquet",
+      "bytes": 87925,
+      "sha256": "0b4d0357a376a0bc32126602feb5eeb4c08bb46b225f870306629d5c6d9f0b83"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000317.parquet",
+      "bytes": 98174,
+      "sha256": "d703eb392534753f34b2acb6bf83d69018e4423329c0a7f4df03146708b235ee"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000318.parquet",
+      "bytes": 85543,
+      "sha256": "636d44b7a8b4aec4fed61f35263b37f8fdf4b0c927683821d455d1f7fad8d091"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000319.parquet",
+      "bytes": 94690,
+      "sha256": "b5bdd622883e8c057521cfe9c96e3a4955f4b3781b1069e832a985f01a988828"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000320.parquet",
+      "bytes": 88235,
+      "sha256": "41877e9086be96e82629cfc3d8cfee6aff9a2bd0681d990b6de237cd4ebff52e"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000321.parquet",
+      "bytes": 89598,
+      "sha256": "adae37ac7a53b7127e272a71700750ae61404e7a2d180ef5de2ba4ac9d32629b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000322.parquet",
+      "bytes": 104225,
+      "sha256": "054ecd135ccdf9064757f815fb64e917b06b2cf6c42ee313bddefff933f3e93c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000323.parquet",
+      "bytes": 92348,
+      "sha256": "1ed3e153968d16be897260e592c0fad24ad8e7724ddb7bc90dce8baa60112846"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000324.parquet",
+      "bytes": 95962,
+      "sha256": "0bbbe18018e0a87e78a753e1215b4bcbcb1b6b036fb9304f3385d4dec6a146b2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000325.parquet",
+      "bytes": 93869,
+      "sha256": "c8b75b71b869ae64a3ee6401ceea39674d2661797521ea899beeb2c5dce110a4"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000326.parquet",
+      "bytes": 88048,
+      "sha256": "dcbdc460f6d2b8852360982ecfed20b1a059b940e577fcd1d07b2130e2ebc674"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000327.parquet",
+      "bytes": 93557,
+      "sha256": "cc49e799b4d4547547ed3157ad99d7d34529647dfa218b5183577900d8a9744d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000328.parquet",
+      "bytes": 99083,
+      "sha256": "17d8e601aef034f7492df341217a85e0b7b4304ad625af849f997f8bc19f2a1c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000329.parquet",
+      "bytes": 90281,
+      "sha256": "cf440f804cf83d230b263a7d72de20d94817b5adc83a65cfa239db98ad6f1240"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000330.parquet",
+      "bytes": 96161,
+      "sha256": "0363ce1a02b23d2eb84ecde5a074f56712262a483ac9d93ce4a409802a9a8e9d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000331.parquet",
+      "bytes": 97266,
+      "sha256": "f8a191f9c46aabce1318fdefa72594c87ea7fab7594242a334d5121cd4c5ac8d"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000332.parquet",
+      "bytes": 100067,
+      "sha256": "7bea69cc3cc28eadfd6a41583a5ace603c6ab4925ac67844ffa6457ee06f9ce1"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000333.parquet",
+      "bytes": 83727,
+      "sha256": "ec5ac186a24b1fe42e2f6c7af2674813de7a8d0d50e61f8b4219601485d20065"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000334.parquet",
+      "bytes": 99107,
+      "sha256": "7f316811714295f07a3e77b1ca50f32ba407c072471a566f2c87643e244769ac"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000335.parquet",
+      "bytes": 95853,
+      "sha256": "477ea3ca33555e8f9d1a30a0783302572237e6173cf78c7bf2d6dad86deba25f"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000336.parquet",
+      "bytes": 98490,
+      "sha256": "c5aec881667e1c8cc59f90c1c3f23630af86f91b06224cdd509f88359e139d76"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000337.parquet",
+      "bytes": 94784,
+      "sha256": "0b754aa2717ef364dd86a1dcc22b197c12f6658b5006aae42a0cae39f5883de2"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000338.parquet",
+      "bytes": 85988,
+      "sha256": "5d9fc605e5b4adb5db6918a81c8926c360116df7ee287903e5dfb9cb2b8f6a98"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000339.parquet",
+      "bytes": 96885,
+      "sha256": "c245facb44ca118d58922efcc7db3766d65462720dae90436b87074b4c390581"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000340.parquet",
+      "bytes": 91116,
+      "sha256": "74f3343163cf54ca128dc4f4405626cda71dcc7f0c1af76ce9e034ad6ee639a8"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000341.parquet",
+      "bytes": 90178,
+      "sha256": "560903469783ffdeb6bdc25123a26a4f487699a21db7c6fabbe2ad177cb7191b"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000342.parquet",
+      "bytes": 98660,
+      "sha256": "0ebd7882f5db0673685c5b04d21eb23821e50bfc87223ad4df93b4a4e0dfad18"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000343.parquet",
+      "bytes": 99085,
+      "sha256": "2c37c048259ddd54a763df4aa767d285382999b7fe8838924db46f20ada42f93"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000344.parquet",
+      "bytes": 93925,
+      "sha256": "ae64614d2d7b522512cd8bfa14cfef5f465144c9843c241114d4196f1e37b0d5"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000345.parquet",
+      "bytes": 99928,
+      "sha256": "78576ffa5241a6bd4cbf9bf2097c10771a8c561e610f0708f6fdb869f1d03e99"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000346.parquet",
+      "bytes": 94935,
+      "sha256": "f9c2220acc2da88fdf21a4125ed1b1b54f02d630da4bed6f7b40929f6b0dd562"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000347.parquet",
+      "bytes": 97024,
+      "sha256": "5bb34814a2d7eb0738f65baf33039ceaee8a4b0eb902ab4c70060db311c70569"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000348.parquet",
+      "bytes": 102031,
+      "sha256": "e23a9428d7d7ec7d1492504cd343df7b9ed27d90ef4babc5117e62613914d898"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000349.parquet",
+      "bytes": 105857,
+      "sha256": "f86371ddaa3158ffd8dbaeb960104e8945c548ab3e9d4150811a99d3d98d5f05"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000350.parquet",
+      "bytes": 97241,
+      "sha256": "b3feaf78a93783708ed37bdb93ae0f4856a7724f5cb7a4b1056ebb5228a5b0f3"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000351.parquet",
+      "bytes": 92926,
+      "sha256": "f4a5400b472a1c0cc75fc093a17b80333a9f1e53569277fa799523ac781a1bfd"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000352.parquet",
+      "bytes": 98757,
+      "sha256": "0e434dbafb8da04d18a07ae663de1f66449a0f6fe51f66af930d7cd049cc19c0"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000353.parquet",
+      "bytes": 94341,
+      "sha256": "800eaec7a7f179b75d4f1dc22da12904d39def5db2237440d8078be5586d128a"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000354.parquet",
+      "bytes": 93241,
+      "sha256": "c2f484b3496678dae63c5373c6e89b631d765f189ca0feffd11916d5b438765c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000355.parquet",
+      "bytes": 86228,
+      "sha256": "8a494d19589001414a39c230b8c9a151764c82e349720954142e3da379ab0801"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000356.parquet",
+      "bytes": 95677,
+      "sha256": "c72931d374c9eb70a87cb7cac283d88b36bfa0646940e676441c0144e51fdf18"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000357.parquet",
+      "bytes": 98907,
+      "sha256": "94d0d2c7cc801c3f123f649d616b1cf1cdd27a1ea097034522a2a02bc0b7ceb6"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000358.parquet",
+      "bytes": 92336,
+      "sha256": "70ba12b4ed7fe978d91503bfe24cd6a2b91a77b1f721a4365d08bb6074e96735"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000359.parquet",
+      "bytes": 107623,
+      "sha256": "e2a8d9b4547dbeb632df6869ecb8acf8e9a1c25137bae1af5acbfa64c92d6e92"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000360.parquet",
+      "bytes": 82709,
+      "sha256": "86ea20ac278f7f8b001f58746339f6e20c66807a1762091269ff1b7ebc0d12b9"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000361.parquet",
+      "bytes": 96771,
+      "sha256": "84b020b24d04b9d53dd93e5e7a1623d17bb5ae11396805ea7fd8ed287e835e05"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000362.parquet",
+      "bytes": 91263,
+      "sha256": "19852de35b1fd980d78ba2181c4710e08661e0d2524d880b99a6d53b123a0828"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000363.parquet",
+      "bytes": 96617,
+      "sha256": "29ca99e341612e5ddb737bbfe19909cfbef8cec2d91df1949bd5a43f1ea0077c"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/union365/chunk-000/episode_000364.parquet",
+      "bytes": 94753,
+      "sha256": "f8493e9e748a93f27d70ecaf382d900bbd3aa31fbf604a5476953b57bcf0bfca"
+    },
+    {
+      "path": "_runtime/model_assets/trajectory_libraries/verified200/file-000.parquet",
+      "bytes": 17605770,
+      "sha256": "e2d976e0cae66402adf3f215a8da53993946a370a7913f4efd6d2af3e3ee1a46"
+    },
+    {
+      "path": "checkpoint/cube_highres_pose_v1.ckpt",
+      "bytes": 42908107,
+      "sha256": "f12f5242ccce54b6dbd10042d4e39a8b9fe3afc4b7b1a7842d21475254d75084"
+    },
+    {
+      "path": "checkpoint/dynamic_pose_rgb_v3_epoch029.ckpt",
+      "bytes": 17745355,
+      "sha256": "3d0014b7f990f115f51ce14a26a02c55d61d1cc4f939895e80e1cc1a8d7a53c7"
+    },
+    {
+      "path": "checkpoint/pose_regressor_v4.ckpt",
+      "bytes": 17965067,
+      "sha256": "55a9a7c1c5bd1091617683a5bf9adbebce9e03f0bfb92d2cfcaaa75010a4bf85"
+    },
+    {
+      "path": "checkpoint/rack_highres_pose_v1.ckpt",
+      "bytes": 41611659,
+      "sha256": "338a0da4a8cf91b59e92ae4cdd29e357d01d143eeeef5d9207a7ac5cadc0a24e"
+    },
+    {
+      "path": "config/left_grasp_calibration.json",
+      "bytes": 6668,
+      "sha256": "d8ad2fbc98cd7095f132f9558d567090eb50b3445a9b6d8ce5da351eaefcd6be"
+    }
+  ],
+  "table_rearrangement": [
+    {
+      "path": "policy/act_table_physical_v1/checkpoint/config.json",
+      "bytes": 2064,
+      "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
+    },
+    {
+      "path": "policy/act_table_physical_v1/checkpoint/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "06e0a0d4c563cbca60cd357bf4ceb1792fb6b4786a04b9ceae507539e6d4270f"
+    }
+  ],
+  "water_pouring": [
+    {
+      "path": "checkpoint/config.json",
+      "bytes": 2060,
+      "sha256": "025e02433a3e8c844093550fff0d6db5e7494b412f6e74dce7674910b36874e9"
+    },
+    {
+      "path": "checkpoint/model.safetensors",
+      "bytes": 206563032,
+      "sha256": "acfa8d21e852b9006849a7edccdf8c7d692fe0117ab1213c50b01fb105eec406"
+    }
+  ]
+}

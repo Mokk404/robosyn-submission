@@ -1,0 +1,2 @@
+# Reference ACT runtime; see ../ENVIRONMENT.md for simulator installation.
+-r ../requirements-common.txt
