@@ -1,0 +1,33 @@
+# Relative asset paths are resolved from the submission repository root.
+policy_name: nyx_manipulate_pipette
+task_name: manipulate_pipette
+setting: random
+model_name: nyx_manipulate_pipette_frozen
+seed: 0
+max_episodes: 20
+max_steps: 1000
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys:
+- cam_high
+- cam_right_wrist
+- cam_left_wrist
+eval_reset_sync_steps: 1
+eval_freeze_interval_events: false
+checkpoint_path: manipulate_pipette/checkpoint/current1500/pretrained_model
+act_step: 10
+n_action_steps: 50
+action_chunk_offset: 0
+state_obs_path: robot/qpos
+strict_action_dim: true
+neutralize_qvel: false
+neutralize_left_gripper_state: true
+debug_button_press: false
+debug_trajectory: false
+debug_trajectory_steps: 100
+image_key_map:
+  observation.images.cam_high: cam_high
+  observation.images.cam_right_wrist: cam_right_wrist
+  observation.images.cam_left_wrist: cam_left_wrist

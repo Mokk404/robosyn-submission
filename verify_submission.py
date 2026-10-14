@@ -21,6 +21,8 @@ def digest(p):
 
 def manifest_files():
     for p in sorted(ROOT.rglob('*'), key=lambda item:item.relative_to(ROOT).as_posix()):
+        if any(part in {'.git', '__pycache__', '.pytest_cache'} for part in p.relative_to(ROOT).parts):
+            continue
         if not p.is_file() or p.name == MANIFEST_NAME:
             continue
         if p.suffix.lower() in {'.mp4','.webm','.mov','.m4v'}:
@@ -45,6 +47,9 @@ def main():
     errors=[]
     if set(mapping)!=expected:errors.append('Task coverage differs from the ten required tasks')
     for task,e in mapping.items():
+        for filename in ('__init__.py','deploy_policy.py','deploy_policy.yml','eval.sh'):
+            standard=ROOT/'policy'/('nyx_'+task)/filename
+            if not standard.is_file():errors.append(f'Missing standard entrypoint: {standard}')
         paths=[e['config'], e['adapter_directory']+'/__init__.py',e['adapter_directory']+'/deploy_policy.py',*e['paths'].values(),*e['required_assets']]
         for relative in paths:
             p=(ROOT/task/relative).resolve()

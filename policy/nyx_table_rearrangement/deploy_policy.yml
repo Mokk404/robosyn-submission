@@ -1,0 +1,21 @@
+# Relative asset paths are resolved from the submission repository root.
+policy_name: nyx_table_rearrangement
+task_name: table_rearrangement
+setting: random
+model_name: nyx_table_rearrangement_frozen
+checkpoint_path: table_rearrangement/policy/act_table_physical_v1/checkpoint
+seed: 0
+max_episodes: 5
+max_steps: null
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys:
+- cam_high
+- cam_right_wrist
+- cam_left_wrist
+eval_reset_sync_steps: 0
+act_step: 10
+scale_gripper_01_to_env: false
+return_inference_timing: true

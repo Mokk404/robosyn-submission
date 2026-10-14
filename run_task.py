@@ -18,8 +18,8 @@ def resolve_plan(task, official_root, episodes=100, seed=0, gpu='0', setting='ra
     if episodes < 1:
         raise ValueError('episodes must be positive')
     entry = entries[task]
-    package = ROOT / task / entry['adapter_directory']
-    config = ROOT / task / entry['config']
+    package = ROOT / 'policy' / ('nyx_' + task)
+    config = package / 'deploy_policy.yml'
     evaluator = Path(official_root).expanduser().resolve() / 'scripts/eval_policy.py'
     for path in [package / '__init__.py', package / 'deploy_policy.py', config, evaluator]:
         if not path.is_file():
@@ -48,6 +48,9 @@ def resolve_plan(task, official_root, episodes=100, seed=0, gpu='0', setting='ra
 
 def register_adapter(plan):
     import policy
+    submission_policies = str(ROOT / 'policy')
+    if submission_policies not in policy.__path__:
+        policy.__path__.append(submission_policies)
     package = Path(plan['adapter'])
     name = 'policy.' + plan['policy_name']
     spec = importlib.util.spec_from_file_location(name, package / '__init__.py', submodule_search_locations=[str(package)])

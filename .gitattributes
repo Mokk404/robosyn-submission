@@ -13,3 +13,6 @@
 *.npz binary
 *.parquet binary
 
+
+.gitattributes text eol=lf
+SHA256SUMS_UNIFIED text eol=lf
