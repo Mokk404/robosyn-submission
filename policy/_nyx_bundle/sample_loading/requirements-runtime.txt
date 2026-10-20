@@ -1,0 +1,7 @@
+# Install the official RoboSynChallenge / EmbodiChain environment first.
+numpy
+pillow
+pyarrow
+pyyaml
+torch==2.7.1
+torchvision

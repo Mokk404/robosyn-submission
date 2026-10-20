@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "task": "table_rearrangement",
+  "checkpoint_source": "outputs/act_table_rearrangement_mixed1100_bs8_v0/checkpoints/080000/pretrained_model",
+  "weight_hashes": {
+    "config.json": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c",
+    "model.safetensors": "06e0a0d4c563cbca60cd357bf4ceb1792fb6b4786a04b9ceae507539e6d4270f"
+  },
+  "gpu_validation": "not_run",
+  "historical_evidence": "原始080000配合旧包装入口夹爪修正，公开random复测295/300。此成绩不代表本次封装已通过GPU验收。"
+}

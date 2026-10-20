@@ -1,0 +1,18 @@
+# Final manipulate_pipette package; sizes are bytes.
+# SHA256SUMS.txt covers content files, excluding itself and this manifest.
+relative_path | size_bytes | purpose
+README_FINAL_SUBMISSION.md | 7260 | Selection, inference contract, runtime and validation limitations
+checkpoint/current1500/pretrained_model/config.json | 2060 | Original ACT model configuration
+checkpoint/current1500/pretrained_model/model.safetensors | 206563032 | Final current1500 ACT weights, unchanged
+checkpoint/current1500/pretrained_model/train_config.json | 5510 | Historical training provenance metadata
+config/deploy_policy.yml | 1009 | Official-aligned inference configuration
+deploy/eval.sh | 2401 | Portable evaluator launcher and contract detection
+deploy/run_eval.py | 1428 | Evaluator adapter loader for official/local contracts
+docs/INFERENCE_AUDIT.md | 2591 | Policy provenance and dependencies
+docs/OFFICIAL_RUNTIME_COMPATIBILITY.md | 1860 | Four-result interface and interval-event compatibility notes
+policy/submitted_act/__init__.py | 325 | Official four-result ACT package interface
+policy/submitted_act/deploy_policy.py | 13963 | Byte-identical original ACT executor
+policy/submitted_act/official_contract.py | 1985 | True chunk-inference timing wrapper
+docs/OFFICIAL_VALIDATION_REQUIRED.md | 1173 | Required fresh official-entry rollout procedure and evidence status
+SHA256SUMS.txt | 1325 | Checksums for all non-manifest content files
+MANIFEST.txt | 1474 | This package inventory

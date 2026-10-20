@@ -1,0 +1,15 @@
+# drawer_open_place final submission inventory; sizes are bytes.
+relative_path | size_bytes | purpose
+checkpoint/pretrained_model/config.json | 2060 | Frozen 002500 ACT checkpoint
+checkpoint/pretrained_model/model.safetensors | 206563032 | Frozen 002500 ACT checkpoint
+checkpoint/pretrained_model/train_config.json | 5418 | Frozen 002500 ACT checkpoint
+policy/drawer_open_place/__init__.py | 104 | Task-specific ACT inference and portable launcher
+policy/drawer_open_place/deploy_policy.py | 8168 | Task-specific ACT inference and portable launcher
+policy/drawer_open_place/deploy_policy.yml | 1043 | Task-specific ACT inference and portable launcher
+policy/drawer_open_place/entrypoint.py | 490 | Task-specific ACT inference and portable launcher
+policy/drawer_open_place/eval.sh | 1457 | Task-specific ACT inference and portable launcher
+README.md | 2471 | Submission documentation or runtime requirements
+requirements.txt | 215 | Submission documentation or runtime requirements
+requirements-runtime.txt | 316 | Submission documentation or runtime requirements
+SHA256SUMS.txt | 1104 | Checksums for package content files
+MANIFEST.txt | 1169 | This package inventory

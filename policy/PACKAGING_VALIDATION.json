@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "base_commit": "4adbc13a7aaa62533bc5a2f06a01e4e9f039c0ce",
+  "retained_tree_only": true,
+  "participant_root_files_in_fixture": false,
+  "frozen_files_identical": 220,
+  "tasks": 10,
+  "assets_verified": 396,
+  "all_ten_bash_launchers": "passed",
+  "official_namespace_import_fixture": "passed",
+  "config_and_model_interface_test_doubles": "passed",
+  "native_asset_symlinks": "unavailable_windows_privilege_copy_fallback_passed",
+  "existing_download_copy_mapping": "passed",
+  "wrong_asset_rejection": "passed",
+  "real_model_loading": "not_run",
+  "gpu_simulator_rollout": "not_run",
+  "official_approval": "not_claimed"
+}

@@ -1,0 +1,20 @@
+{
+    "task":  "mixer_operating",
+    "policy":  "act_mixer_submission_v1",
+    "files":  {
+                  "BUILD_PROVENANCE.json":  "9d0c9205eb3083f75a8529b14b753d0110c86297ecbbd326d23d18f8e5781e25",
+                  "README.md":  "4240a3db6285cc0de355110a1f12ffe832a182f2a244b65ea5ebaed803a59716",
+                  "requirements-runtime.txt":  "81d700fa897903253a0179009a61a61c530af5f77949192ac2cfdc8e0f07f6f5",
+                  "policy/act_mixer_submission_v1/__init__.py":  "ee0cd77fb2736ac5fa1201476b04360b34b6229d44cb459cc17059378af04e14",
+                  "policy/act_mixer_submission_v1/deploy_policy.py":  "79a48ecf84e6876f5d28c2c57784b88d8c8714ee059476fd6e4af2265f9321f3",
+                  "policy/act_mixer_submission_v1/deploy_policy.yml":  "873f23c845b36709db5c34c2ff37a6748bc86ba2952c42c8407df9d2a603ccda",
+                  "policy/act_mixer_submission_v1/entrypoint.py":  "b197d301872dd7c92582d58862f809b4c922cf263589fca16a7db9fee5e75b05",
+                  "policy/act_mixer_submission_v1/eval.sh":  "fd7e6140c4ffb8a9b53ff163e49357ecf1f8afc925b398984a6c0200e9ebeb1b",
+                  "policy/act_mixer_submission_v1/inference_timing.py":  "081e00a1ce6150838f5b57aa5753e78db7062d7d82dd6048cf4de11f671e4fbd",
+                  "policy/act_mixer_submission_v1/checkpoint/config.json":  "080cbc8fbedf4b49c362e1557801b42fa15bd367170c33181defd8ca9f65654d",
+                  "policy/act_mixer_submission_v1/checkpoint/model.safetensors":  "51a2247dc0814826c0f8b6eb1ae5ee02a3743f0109f67986fd0a2c1116f1e716",
+                  "VALIDATION.json":  "ffee4b9227317cc9cc22505e65d68d48e2d951526377a595c7a6e3084d650b28",
+                  "docs/RUNTIME_VERIFICATION.md":  "fac86212d1da564b9637583349ed919a20beba1bc13cdf58d2d22fdbf3e6241d"
+              },
+    "gpu_validation":  "not_run"
+}

@@ -1,0 +1,33 @@
+policy_name: sample_loading
+task_name: sample_loading
+setting: random
+model_name: sample_loading_v89_public_obs
+seed: 20260929
+max_episodes: 20
+max_steps: 500
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_reset_sync_steps: 1
+eval_expert_check: true
+
+checkpoint_path: checkpoint/pose_regressor_v4.ckpt
+cube_highres_checkpoint_path: checkpoint/cube_highres_pose_v1.ckpt
+rack_highres_checkpoint_path: checkpoint/rack_highres_pose_v1.ckpt
+rgb_dynamic_checkpoint_path: checkpoint/dynamic_pose_rgb_v3_epoch029.ckpt
+left_grasp_calibration_path: config/left_grasp_calibration.json
+
+cube_pose_ema_alpha: 0.2
+rack_pose_ema_alpha: 0.0
+fk_anchor_window: 12
+fk_visual_correction_alpha: 0.08
+fk_visual_gate_m: 0.05
+pickup_probe_frames: [130, 135, 140]
+pickup_probe_z_threshold_m: 0.90
+guided_release_descent_timeout_steps: 24
+guided_release_extra_z_tolerance_m: 0.010
+guided_release_slot_gate_m: 0.015
+guided_release_angle_gate_deg: 10.0
+v82_rack_sample_frames: 1

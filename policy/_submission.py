@@ -4,7 +4,7 @@ import importlib.util
 import json
 from pathlib import Path
 import sys
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent / '_nyx_bundle'
 
 def entry(task):
     return json.loads((ROOT / 'TASKS.json').read_text(encoding='utf-8'))['tasks'][task]

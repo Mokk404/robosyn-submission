@@ -1,4 +1,4 @@
-# Relative asset paths are resolved from the submission repository root.
+# Relative asset paths are resolved from policy/_nyx_bundle/.
 policy_name: nyx_mixer_operating
 task_name: mixer_operating
 setting: random

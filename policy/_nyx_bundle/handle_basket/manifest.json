@@ -1,0 +1,24 @@
+{
+    "task":  "handle_basket",
+    "policy":  "act_handle_basket_submission_v1",
+    "checkpoint":  "mixed1020_bs8_v1/080000",
+    "historical_random100":  "90/100 seed=0",
+    "files":  {
+                  "BUILD_PROVENANCE.json":  "092461cc320b5964d712928e7b3ef6bab545b5247ce0e74f047893093f0df35d",
+                  "policy/act_handle_basket_submission_v1/__init__.py":  "ee0cd77fb2736ac5fa1201476b04360b34b6229d44cb459cc17059378af04e14",
+                  "policy/act_handle_basket_submission_v1/checkpoint/config.json":  "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c",
+                  "policy/act_handle_basket_submission_v1/checkpoint/model.safetensors":  "29034d5a49066d980a23b5056e2711fe51d4b12be1783d1a74f28d8c7e937cbc",
+                  "policy/act_handle_basket_submission_v1/checkpoint/train_config.json":  "d2f5173732376ce27708dbac0584daf34e353a1fbc898d2b76a0b4e7dae6760a",
+                  "policy/act_handle_basket_submission_v1/deploy_policy.py":  "e3a8edb7e514eee42f7642be99d21c9285ebc1b0dd2f5ddc441e2ad8ef0638ca",
+                  "policy/act_handle_basket_submission_v1/deploy_policy.yml":  "33cc868f4471322f539a27ece8838801f57425cedff164899af58d1d87021dd4",
+                  "policy/act_handle_basket_submission_v1/entrypoint.py":  "b197d301872dd7c92582d58862f809b4c922cf263589fca16a7db9fee5e75b05",
+                  "policy/act_handle_basket_submission_v1/eval.sh":  "fd7e6140c4ffb8a9b53ff163e49357ecf1f8afc925b398984a6c0200e9ebeb1b",
+                  "policy/act_handle_basket_submission_v1/inference_timing.py":  "081e00a1ce6150838f5b57aa5753e78db7062d7d82dd6048cf4de11f671e4fbd",
+                  "README.md":  "1a732aef1a3d78bc3b16c5a2f8e842a7c4f4abdaeac74c32815d2851502f94d3",
+                  "requirements-runtime.txt":  "81d700fa897903253a0179009a61a61c530af5f77949192ac2cfdc8e0f07f6f5",
+                  "VALIDATION.json":  "871ff30e568b01175e8a97022ec986a1add7983c4ee6b9ccc40a934df8a356ea",
+                  "docs/RUNTIME_VERIFICATION.md":  "7b07cc8ed7ec3ff98527f2c4eb0ed436cf71b3c9e5a43f128389ab92051fb822"
+              },
+    "validation":  "static_and_integrity_passed",
+    "gpu_validation":  "not_run_during_packaging"
+}

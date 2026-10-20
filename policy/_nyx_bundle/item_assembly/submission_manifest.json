@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "policy_name": "item_assembly_1",
+  "task_name": "item_assembly",
+  "method": "ACT 080000 plus fixed bounded qpos-conditioned residual",
+  "checkpoint": {
+    "directory": "checkpoint",
+    "model_file": "checkpoint/model.safetensors",
+    "model_sha256": "ff69fa981b78bb55a8ad7e82fccdd24b67bd9938aabf1b37959ca4e192edbd0c"
+  },
+  "residual": {
+    "file": "residual.json",
+    "sha256": "d79b8abfb5e7556d804165d11a0e1950fe2d687ead96107c4a127f4e30e0b611",
+    "input": "observation.state (public robot qpos)",
+    "cap_rad": 0.02,
+    "arm_action_dimensions": [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12],
+    "unchanged_gripper_dimensions": [6, 13]
+  },
+  "act": {
+    "output_chunk_size": 50,
+    "execution_chunk_size": 20,
+    "action_offset": 0,
+    "temporal_ensemble": false
+  },
+  "allowed_observations": [
+    "sensor/cam_high/color",
+    "sensor/cam_right_wrist/color",
+    "sensor/cam_left_wrist/color",
+    "robot/qpos",
+    "robot/qvel",
+    "robot/qf"
+  ],
+  "acceptance_results": [
+    {"successes": 81, "episodes": 100},
+    {"successes": 84, "episodes": 100}
+  ]
+}
+

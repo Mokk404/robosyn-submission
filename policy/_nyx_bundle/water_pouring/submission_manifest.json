@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "policy_name": "water_pouring",
+  "task_name": "water_pouring",
+  "method": "ACT spatial-translation fine-tune checkpoint 000200",
+  "checkpoint": {
+    "directory": "checkpoint",
+    "model_file": "checkpoint/model.safetensors",
+    "model_sha256": "acfa8d21e852b9006849a7edccdf8c7d692fe0117ab1213c50b01fb105eec406"
+  },
+  "act": {
+    "output_chunk_size": 50,
+    "execution_chunk_size": 50,
+    "action_offset": 0,
+    "temporal_ensemble": false,
+    "act_step": 10
+  },
+  "allowed_observations": [
+    "sensor/cam_high/color",
+    "sensor/cam_right_wrist/color",
+    "sensor/cam_left_wrist/color",
+    "robot/qpos",
+    "robot/qvel",
+    "robot/qf"
+  ],
+  "development_results": [
+    {"successes": 18, "episodes": 20, "seed": 0},
+    {"successes": 81, "episodes": 100, "seed": 0}
+  ],
+  "frozen_seeds_used": false,
+  "evidence_note": "Observed results exceed 80%, but are not a guarantee of held-out or physical performance."
+}

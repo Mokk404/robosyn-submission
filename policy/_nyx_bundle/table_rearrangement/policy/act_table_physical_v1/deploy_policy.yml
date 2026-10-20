@@ -1,0 +1,17 @@
+policy_name: act_table_physical_v1
+task_name: table_rearrangement
+setting: random
+model_name: baseline080000_physical
+checkpoint_path: null
+seed: 0
+max_episodes: 5
+max_steps: null
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_reset_sync_steps: 0
+act_step: 10
+scale_gripper_01_to_env: false
+return_inference_timing: true

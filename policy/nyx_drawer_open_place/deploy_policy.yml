@@ -1,4 +1,4 @@
-# Relative asset paths are resolved from the submission repository root.
+# Relative asset paths are resolved from policy/_nyx_bundle/.
 policy_name: nyx_drawer_open_place
 task_name: drawer_open_place
 setting: random

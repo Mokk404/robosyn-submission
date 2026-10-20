@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-10",
+  "python_syntax": "passed",
+  "table_regression_tests": 6,
+  "table_existing_inference_preserved": true,
+  "mixer_cpu_action_interface_check": null,
+  "real_model_load": "not_run",
+  "gpu_simulation": "not_run"
+}

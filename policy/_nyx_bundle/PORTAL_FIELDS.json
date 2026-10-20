@@ -1,0 +1,52 @@
+{
+  "schema_source": "https://github.com/EDEM-AI/robosynchallenge.github.io/blob/main/templates/evaluation.html",
+  "prepared_on": "2026-10-11",
+  "model_registry": {
+    "display_name": "NYX ten-task policy suite 2026-10-11",
+    "checkpoint_link": null,
+    "code_link": "https://github.com/Mokk404/robosyn-submission"
+  },
+  "evaluation": {
+    "experiment_name": "nyx-ten-task-random-20261011",
+    "short_description": "Task-specific ACT and RGB-based hybrid controllers covering all ten RoboSynChallenge tasks. The release preserves per-task checkpoints, adapters, auxiliary predictors, calibration files and trajectory assets.",
+    "technical_notes": "Run from the repository root with eval.sh or run_task.py against a pinned official RoboSynChallenge checkout. The suite uses task-specific execution horizons. Six ACT entries currently use output/execution chunk 50/50, which conflicts with the portal validation rule execution_chunk_size < output_chunk_size; organizer guidance is required before entering these fields. sample_loading accesses env.unwrapped.robot FK/IK and also requires organizer approval.",
+    "include_on_leaderboard": null,
+    "data_sources": {
+      "official_real": null,
+      "official_simulated": null,
+      "other": null,
+      "other_data_source_text": null,
+      "status": "requires team confirmation against DATA_SOURCES.md"
+    },
+    "input": {
+      "state": ["joints", "gripper"],
+      "images": ["cam_high", "cam_left_wrist", "cam_right_wrist"],
+      "eef_pose": false,
+      "rotation_format": null,
+      "note": "Several ACT adapters also consume qvel/qf, which the current portal does not expose as separate choices. Disclose this in technical notes."
+    },
+    "output": {
+      "joints": {"enabled": true, "delta": false},
+      "gripper": {"enabled": true, "delta": false},
+      "eef_pose": {"enabled": false, "delta": false},
+      "rotation_format": null
+    },
+    "output_chunk_size": 50,
+    "execution_chunk_size": null,
+    "gripper_threshold": null,
+    "blocking_reason": "A single truthful execution_chunk_size and gripper_threshold cannot yet be entered for this task-specific suite. Do not invent values or change policy behavior to satisfy the form."
+  },
+  "task_protocols": {
+    "click_bell": {"output_chunk_size": 50, "execution_chunk_size": 10, "status": "portal-compatible"},
+    "drawer_open_place": {"output_chunk_size": 50, "execution_chunk_size": 10, "status": "portal-compatible"},
+    "handle_basket": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"},
+    "item_assembly": {"output_chunk_size": 50, "execution_chunk_size": 20, "status": "portal-compatible"},
+    "items_handover": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"},
+    "manipulate_pipette": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"},
+    "mixer_operating": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"},
+    "sample_loading": {"output_chunk_size": null, "execution_chunk_size": null, "status": "non-ACT controller; confirm portal representation"},
+    "table_rearrangement": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"},
+    "water_pouring": {"output_chunk_size": 50, "execution_chunk_size": 50, "status": "portal-conflict"}
+  }
+}
+

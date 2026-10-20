@@ -1,0 +1,29 @@
+{
+    "status":  "passed",
+    "validated_at":  "2026-10-10T23:45:54.8433237+08:00",
+    "required_files_present":  true,
+    "missing_files":  [
+
+                      ],
+    "json_parse_ok":  true,
+    "task_guard_ok":  true,
+    "official_interface_symbols_ok":  true,
+    "launcher_ok":  true,
+    "yaml_task_ok":  true,
+    "checkpoint_config_ok":  true,
+    "train_config_ok":  true,
+    "checkpoint_small_files_match_source":  true,
+    "safetensors_header_ok":  true,
+    "model_size_bytes":  206563032,
+    "model_full_sha256":  "29034d5a49066d980a23b5056e2711fe51d4b12be1783d1a74f28d8c7e937cbc",
+    "model_sampled_source_destination_local_match":  true,
+    "historical_random100":  {
+                                 "videos_path":  "X:\\Robotsynchallenge\\RoboSynChallenge\\eval_result\\final_official_random100_20260907\\handle_basket\\act_observation_only_final_20260907\\random\\official_random100_seed0\\080000\\2026-09-07_23-33-30\\videos",
+                                 "success":  90,
+                                 "failure":  10,
+                                 "temporary":  0,
+                                 "total":  100,
+                                 "matches_record":  true
+                             },
+    "gpu_evaluation":  "not_run_during_packaging"
+}

@@ -1,0 +1,9 @@
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+lerobot==0.3.3
+gymnasium==0.29.1
+PyYAML==6.0.3
+safetensors==0.8.0
+huggingface-hub==1.30.0
+tqdm==4.70.0

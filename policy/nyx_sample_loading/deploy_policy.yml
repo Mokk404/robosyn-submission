@@ -1,4 +1,4 @@
-# Relative asset paths are resolved from the submission repository root.
+# Relative asset paths are resolved from policy/_nyx_bundle/.
 policy_name: nyx_sample_loading
 task_name: sample_loading
 setting: random

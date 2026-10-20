@@ -1,0 +1,32 @@
+policy_name: items_handover
+task_name: items_handover
+setting: random
+train_config_name: null
+model_name: null
+seed: 0
+max_episodes: 100
+max_steps: null
+headless: true
+pytorch_device: cuda
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys:
+  - cam_high
+  - cam_right_wrist
+  - cam_left_wrist
+eval_reset_sync_steps: 0
+eval_expert_check: true
+eval_max_seed_attempts_per_episodes: 100
+eval_result_dir: null
+
+checkpoint_path: null
+act_step: 10
+force_replan: false
+public_trace_root: null
+temporal_ensemble_coeff: 0.01
+
+auxiliary_checkpoint_path: null
+ensemble_alpha: 0.5
+
+translation_blend: 0.12
+translation_blend_steps: 150
