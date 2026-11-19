@@ -28,10 +28,6 @@
       "sha256": "3efa1b4cdf385e9d605115781ca707ea429267c7951503119e6452cfcead59b0"
     },
     {
-      "path": "_nyx_bundle/click_bell/config/deploy_policy.yml",
-      "sha256": "9d98a506c91632e2af8f958584180864f2d1b7d01d66474bc34300b96eb57ad6"
-    },
-    {
       "path": "_nyx_bundle/click_bell/deploy/eval.sh",
       "sha256": "3e162c40de00e6c0cf3b0a3aa628a00bbd6fe91a034b2eb8315f3e591696ac1d"
     },
@@ -54,10 +50,6 @@
     {
       "path": "_nyx_bundle/click_bell/policy/submitted_act/__init__.py",
       "sha256": "216151d5384f227da492495c30cb4ecc2b8f89b91498aa7ce614e957bf07690e"
-    },
-    {
-      "path": "_nyx_bundle/click_bell/policy/submitted_act/deploy_policy.py",
-      "sha256": "3a2eb579f136d0468ec4c2baa5452005e55fd3c1ea60141e4128ec6c23f53a01"
     },
     {
       "path": "_nyx_bundle/click_bell/policy/submitted_act/official_contract.py",
@@ -160,14 +152,6 @@
       "sha256": "d2f5173732376ce27708dbac0584daf34e353a1fbc898d2b76a0b4e7dae6760a"
     },
     {
-      "path": "_nyx_bundle/handle_basket/policy/act_handle_basket_submission_v1/deploy_policy.py",
-      "sha256": "e3a8edb7e514eee42f7642be99d21c9285ebc1b0dd2f5ddc441e2ad8ef0638ca"
-    },
-    {
-      "path": "_nyx_bundle/handle_basket/policy/act_handle_basket_submission_v1/deploy_policy.yml",
-      "sha256": "33cc868f4471322f539a27ece8838801f57425cedff164899af58d1d87021dd4"
-    },
-    {
       "path": "_nyx_bundle/handle_basket/policy/act_handle_basket_submission_v1/entrypoint.py",
       "sha256": "b197d301872dd7c92582d58862f809b4c922cf263589fca16a7db9fee5e75b05"
     },
@@ -206,14 +190,6 @@
     {
       "path": "_nyx_bundle/item_assembly/checkpoint/train_config.json",
       "sha256": "265a72d062516f64d108bb84ce1e0dce15d331477e624b372f350404ce1a772c"
-    },
-    {
-      "path": "_nyx_bundle/item_assembly/deploy_policy.py",
-      "sha256": "84702f63233464342c6b3f4eaf0eef2831b77ae24853fc72e16dd3e800c3a58c"
-    },
-    {
-      "path": "_nyx_bundle/item_assembly/deploy_policy.yml",
-      "sha256": "92046b1e1606271de737d5b6d8703dc2af3369aa0b800640c4b06a3e335a3992"
     },
     {
       "path": "_nyx_bundle/item_assembly/eval.sh",
@@ -340,10 +316,6 @@
       "sha256": "fc0ff3ea3a178a437db1231140a24c169e960b86060003429e5006593eb1a6d0"
     },
     {
-      "path": "_nyx_bundle/manipulate_pipette/config/deploy_policy.yml",
-      "sha256": "745ad44eb934799af8388de5451204da76dc85f8526c87406d3e3d2757aba307"
-    },
-    {
       "path": "_nyx_bundle/manipulate_pipette/deploy/eval.sh",
       "sha256": "874f76dfd261466fd51e1583e92909931b6fff8e2775f872a9e828e5ed7c244f"
     },
@@ -366,10 +338,6 @@
     {
       "path": "_nyx_bundle/manipulate_pipette/policy/submitted_act/__init__.py",
       "sha256": "216151d5384f227da492495c30cb4ecc2b8f89b91498aa7ce614e957bf07690e"
-    },
-    {
-      "path": "_nyx_bundle/manipulate_pipette/policy/submitted_act/deploy_policy.py",
-      "sha256": "3a2eb579f136d0468ec4c2baa5452005e55fd3c1ea60141e4128ec6c23f53a01"
     },
     {
       "path": "_nyx_bundle/manipulate_pipette/policy/submitted_act/official_contract.py",
@@ -414,14 +382,6 @@
     {
       "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/checkpoint/config.json",
       "sha256": "080cbc8fbedf4b49c362e1557801b42fa15bd367170c33181defd8ca9f65654d"
-    },
-    {
-      "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/deploy_policy.py",
-      "sha256": "79a48ecf84e6876f5d28c2c57784b88d8c8714ee059476fd6e4af2265f9321f3"
-    },
-    {
-      "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/deploy_policy.yml",
-      "sha256": "873f23c845b36709db5c34c2ff37a6748bc86ba2952c42c8407df9d2a603ccda"
     },
     {
       "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/entrypoint.py",
@@ -796,10 +756,6 @@
       "sha256": "05c6e0fda3cc2b0ffdd0df7d6fe605708ef0584c41ae56a64fb738d14d87d04c"
     },
     {
-      "path": "_nyx_bundle/table_rearrangement/policy/act_table_physical_v1/deploy_policy.py",
-      "sha256": "2aff636c50f044d3ff9fe0b280d9d4242258e7a710ade85840f8209a6e486a4a"
-    },
-    {
       "path": "_nyx_bundle/table_rearrangement/policy/act_table_physical_v1/deploy_policy.yml",
       "sha256": "fe0ff350753171e866d0f77587bd786af3c54973e2ee970ca58910d2e042dbd0"
     },
@@ -856,14 +812,6 @@
       "sha256": "a3292c0649e541707a799a95c667065fe828495675ddbd38752d968bbe4f9ffe"
     },
     {
-      "path": "_nyx_bundle/water_pouring/deploy_policy.py",
-      "sha256": "0b3074e408f3c3d7dd3033bcea76f1fbba7cbc73d89ce7f9fecab3a5bd2c5b10"
-    },
-    {
-      "path": "_nyx_bundle/water_pouring/deploy_policy.yml",
-      "sha256": "8cf802099b52a95a07db1e0c4fc038f01ccee8cc6ad6dcd925f4cca7c1e47e22"
-    },
-    {
       "path": "_nyx_bundle/water_pouring/eval.sh",
       "sha256": "fa180c0bd44a191267e13cee06e06f1eca151d5a4f1a6304cb9d0012120e9a39"
     },
@@ -890,5 +838,85 @@
     "ten legacy run_submission.sh relative launcher paths",
     "asset linking/downloading helpers",
     "documentation and packaging tests"
-  ]
+  ],
+  "finals_observation_correction": {
+    "evaluation_id": "real_42d0a565d59a40",
+    "reference_commit": "3dbd2e3e62084b5d621bb8c8906c1e789fa510f7",
+    "tasks": [
+      "click_bell",
+      "handle_basket",
+      "item_assembly",
+      "manipulate_pipette",
+      "mixer_operating",
+      "table_rearrangement",
+      "water_pouring"
+    ],
+    "superseded_frozen_files": [
+      {
+        "path": "_nyx_bundle/click_bell/config/deploy_policy.yml",
+        "sha256": "9d98a506c91632e2af8f958584180864f2d1b7d01d66474bc34300b96eb57ad6",
+        "corrected_sha256": "47f2e3854a5c32095918d55973c1b1dc3e5dfee2d80a6e13e58b652cf8fb5ed3"
+      },
+      {
+        "path": "_nyx_bundle/click_bell/policy/submitted_act/deploy_policy.py",
+        "sha256": "3a2eb579f136d0468ec4c2baa5452005e55fd3c1ea60141e4128ec6c23f53a01",
+        "corrected_sha256": "976c14d0bcc8441173891e7fb980e1a8276c89e0487aae5264b71064946eecd7"
+      },
+      {
+        "path": "_nyx_bundle/handle_basket/policy/act_handle_basket_submission_v1/deploy_policy.py",
+        "sha256": "e3a8edb7e514eee42f7642be99d21c9285ebc1b0dd2f5ddc441e2ad8ef0638ca",
+        "corrected_sha256": "0c15131bf884a661427cb9cfacd63124efbe09e131f4cd0879dad816ac93d4ed"
+      },
+      {
+        "path": "_nyx_bundle/handle_basket/policy/act_handle_basket_submission_v1/deploy_policy.yml",
+        "sha256": "33cc868f4471322f539a27ece8838801f57425cedff164899af58d1d87021dd4",
+        "corrected_sha256": "61eaab2492b52a22481b8ce3b0b079ae5d328fba086b273c8dc47796d77791b4"
+      },
+      {
+        "path": "_nyx_bundle/item_assembly/deploy_policy.py",
+        "sha256": "84702f63233464342c6b3f4eaf0eef2831b77ae24853fc72e16dd3e800c3a58c",
+        "corrected_sha256": "0241b032dbc0b4d1cdbd1c052166570dc28dec63eb5317643194067611db80af"
+      },
+      {
+        "path": "_nyx_bundle/item_assembly/deploy_policy.yml",
+        "sha256": "92046b1e1606271de737d5b6d8703dc2af3369aa0b800640c4b06a3e335a3992",
+        "corrected_sha256": "6321315ee20b66524f6f28e2e8cac112d4796afdd2be1616d562e056e7dbe6cf"
+      },
+      {
+        "path": "_nyx_bundle/manipulate_pipette/config/deploy_policy.yml",
+        "sha256": "745ad44eb934799af8388de5451204da76dc85f8526c87406d3e3d2757aba307",
+        "corrected_sha256": "77dcf25c3ab624f06741296ef32cbefaf5198cb5a8cd52e483eb3e0fdf4e477a"
+      },
+      {
+        "path": "_nyx_bundle/manipulate_pipette/policy/submitted_act/deploy_policy.py",
+        "sha256": "3a2eb579f136d0468ec4c2baa5452005e55fd3c1ea60141e4128ec6c23f53a01",
+        "corrected_sha256": "976c14d0bcc8441173891e7fb980e1a8276c89e0487aae5264b71064946eecd7"
+      },
+      {
+        "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/deploy_policy.py",
+        "sha256": "79a48ecf84e6876f5d28c2c57784b88d8c8714ee059476fd6e4af2265f9321f3",
+        "corrected_sha256": "6bd748a4663a0501c08516de9f30470d7aa4e296ef93cac01102dc87f3a4b3b2"
+      },
+      {
+        "path": "_nyx_bundle/mixer_operating/policy/act_mixer_submission_v1/deploy_policy.yml",
+        "sha256": "873f23c845b36709db5c34c2ff37a6748bc86ba2952c42c8407df9d2a603ccda",
+        "corrected_sha256": "60d493c7d1cf4cc0a2c5be33ba5c45b326599bcd017c5d694a9621b84501e69a"
+      },
+      {
+        "path": "_nyx_bundle/table_rearrangement/policy/act_table_physical_v1/deploy_policy.py",
+        "sha256": "2aff636c50f044d3ff9fe0b280d9d4242258e7a710ade85840f8209a6e486a4a",
+        "corrected_sha256": "32cf431a8d985983db63263512d966cd2caaccc96a48bafb0c1aeaa6fd695155"
+      },
+      {
+        "path": "_nyx_bundle/water_pouring/deploy_policy.py",
+        "sha256": "0b3074e408f3c3d7dd3033bcea76f1fbba7cbc73d89ce7f9fecab3a5bd2c5b10",
+        "corrected_sha256": "2902580f81ebc7028e30de5c7644d398de148dc3562620c66e91db68e9a9f150"
+      },
+      {
+        "path": "_nyx_bundle/water_pouring/deploy_policy.yml",
+        "sha256": "8cf802099b52a95a07db1e0c4fc038f01ccee8cc6ad6dcd925f4cca7c1e47e22",
+        "corrected_sha256": "708804dd5066b6aeec107e86edf0c1beb7e4320f73912bcc05bce749533b411f"
+      }
+    ]
+  }
 }

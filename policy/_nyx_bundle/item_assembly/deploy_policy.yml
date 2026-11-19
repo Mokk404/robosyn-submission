@@ -25,8 +25,6 @@ scale_gripper_01_to_env: true
 gripper_action_ids: [6, 13]
 state_observation_paths:
   observation.state: robot/qpos
-  observation.qvel: robot/qvel
-  observation.qf: robot/qf
 image_key_map:
   observation.images.cam_high: cam_high
   observation.images.cam_right_wrist: cam_right_wrist

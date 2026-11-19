@@ -4,6 +4,8 @@ import time
 import numpy as np
 import torch
 
+from policy._nyx_bundle.finals_observations import checkpoint_state_means
+
 
 def encode_action(action, env):
     """Preserve all arm targets; clip physical gripper coordinates 6 and 13."""
@@ -32,8 +34,11 @@ def _read(obs, path):
 
 def encode_obs(obs, model):
     batch = {}
+    means = getattr(model, "finals_state_means", {})
     for name in model.config.input_features:
-        if name.startswith('observation.images.'):
+        if name in means:
+            batch[name] = means[name]
+        elif name.startswith('observation.images.'):
             camera = model.table_images[name]
             value = torch.as_tensor(_read(obs, f'sensor/{camera}/color'), device=model.table_device)
             if value.ndim == 3:
@@ -83,11 +88,12 @@ def get_model(usr_args):
         raise ValueError('act_step must be positive')
     if model.config.chunk_size != 50 or model.config.n_action_steps != 50:
         raise ValueError('Validated Table checkpoint requires K=N=50')
-    model.table_states = {'observation.state': 'robot/qpos', 'observation.qvel': 'robot/qvel', 'observation.qf': 'robot/qf'}
+    model.finals_state_means = checkpoint_state_means(model)
+    model.table_states = {'observation.state': 'robot/qpos'}
     model.table_images = {f'observation.images.{name}': name for name in ('cam_high', 'cam_right_wrist', 'cam_left_wrist')}
     model.table_images.update(usr_args.get('image_key_map', {}))
     for name in model.config.input_features:
-        if name not in model.table_states and name not in model.table_images:
+        if name not in model.table_states and name not in model.table_images and name not in model.finals_state_means:
             raise ValueError(f'Unsupported observation feature: {name}')
     # Verified 2026-09-20 official snapshot consumes four values; legacy uses three.
     model.table_timing = usr_args.get('return_inference_timing', True) in (True, 'True', 'true')

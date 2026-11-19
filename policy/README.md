@@ -198,3 +198,21 @@ organizer approval.
 Previously disclosed observation-field and FK/IK compatibility questions remain
 unchanged. See `_nyx_bundle/PENDING.md` and data provenance records. Model weights
 and the underlying task-control implementations are preserved.
+
+## Finals observation correction
+
+For evaluation real_42d0a565d59a40, the seven affected ACT adapters use
+measured joint positions and three RGB views. They supply the original
+checkpoint's raw training means for the model's qvel and qf input features,
+before its existing normalization step. The adapters never read velocity
+or effort from the environment. These constants are not measured signals.
+The original policy entrypoints and asset manifest remain in place.
+
+From the official clone root, a no-motion observation check is available:
+
+    python -B policy/check_finals_observations.py --mock
+    "$PYTHON_BIN" -B policy/check_finals_observations.py --device cuda --asset-root /path/to/frozen/hf/snapshot
+
+Use --asset-map in place of --asset-root for separate downloads. The second
+command loads the frozen checkpoints and sends actions only to a fixture.
+Neither check measures closed-loop task success or moves a robot.

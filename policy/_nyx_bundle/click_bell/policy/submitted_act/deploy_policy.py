@@ -10,6 +10,8 @@
 import numpy as np
 import torch
 
+from policy._nyx_bundle.finals_observations import checkpoint_state_means
+
 from lerobot.configs.policies import PreTrainedConfig
 from lerobot.policies.act.modeling_act import ACTPolicy
 
@@ -94,7 +96,7 @@ def get_model(usr_args):
     policy.act_step = int(usr_args.get("act_step", 8))
     policy.state_obs_path = usr_args.get("state_obs_path", "robot/qpos")
     policy.strict_action_dim = bool(usr_args.get("strict_action_dim", True))
-    policy.neutralize_qvel = bool(usr_args.get("neutralize_qvel", False))
+    policy.finals_state_means = checkpoint_state_means(policy)
     policy.debug_button_press = bool(usr_args.get("debug_button_press", False))
     policy.debug_trajectory = bool(usr_args.get("debug_trajectory", False))
     policy.debug_trajectory_steps = int(
@@ -132,79 +134,9 @@ def eval(env, model, obs):
         if state_tensor.ndim == 1:
             state_tensor = state_tensor.unsqueeze(0)
 
-        qvel_tensor = torch.as_tensor(
-            final_obs["robot"]["qvel"],
-            dtype=torch.float32,
-            device=model.act_device,
-        )
-        qf_tensor = torch.as_tensor(
-            final_obs["robot"]["qf"],
-            dtype=torch.float32,
-            device=model.act_device,
-        )
-
-        if qvel_tensor.ndim == 1:
-            qvel_tensor = qvel_tensor.unsqueeze(0)
-        if qf_tensor.ndim == 1:
-            qf_tensor = qf_tensor.unsqueeze(0)
-
-        raw_qvel_tensor = qvel_tensor.clone()
-        if model.neutralize_qvel:
-            qvel_mean = model.normalize_inputs.buffer_observation_qvel["mean"]
-            qvel_tensor = qvel_mean.to(
-                device=model.act_device,
-                dtype=torch.float32,
-            ).unsqueeze(0).expand_as(qvel_tensor)
-
-        if not getattr(model, "_input_debug_printed", False):
-            normalized_debug = model.normalize_inputs(
-                {
-                    "observation.state": state_tensor.clone(),
-                    "observation.qvel": qvel_tensor.clone(),
-                    "observation.qf": qf_tensor.clone(),
-                }
-            )
-            print("[INPUT DEBUG] state shape:", tuple(state_tensor.shape))
-            print("[INPUT DEBUG] state absmax:", state_tensor.abs().max().item())
-            print("[INPUT DEBUG] state:", state_tensor[0].detach().cpu().tolist())
-            print(
-                "[INPUT DEBUG] normalized state absmax:",
-                normalized_debug["observation.state"].abs().max().item(),
-            )
-            print(
-                "[INPUT DEBUG] normalized state:",
-                normalized_debug["observation.state"][0].detach().cpu().tolist(),
-            )
-            print("[INPUT DEBUG] qvel shape:", tuple(qvel_tensor.shape))
-            print("[INPUT DEBUG] neutralize qvel:", model.neutralize_qvel)
-            print(
-                "[INPUT DEBUG] raw qvel absmax:",
-                raw_qvel_tensor.abs().max().item(),
-            )
-            print(
-                "[INPUT DEBUG] raw qvel:",
-                raw_qvel_tensor[0].detach().cpu().tolist(),
-            )
-            print("[INPUT DEBUG] qvel absmax:", qvel_tensor.abs().max().item())
-            print("[INPUT DEBUG] qvel:", qvel_tensor[0].detach().cpu().tolist())
-            print(
-                "[INPUT DEBUG] normalized qvel absmax:",
-                normalized_debug["observation.qvel"].abs().max().item(),
-            )
-            print(
-                "[INPUT DEBUG] normalized qvel:",
-                normalized_debug["observation.qvel"][0].detach().cpu().tolist(),
-            )
-            print("[INPUT DEBUG] qf shape:", tuple(qf_tensor.shape))
-            print("[INPUT DEBUG] qf absmax:", qf_tensor.abs().max().item())
-            print("[INPUT DEBUG] qf:", qf_tensor[0].detach().cpu().tolist())
-            model._input_debug_printed = True
-
-        batch = {
-            "observation.state": state_tensor,
-            "observation.qvel": qvel_tensor,
-            "observation.qf": qf_tensor,
-        }
+        batch = {"observation.state": state_tensor}
+        for name, mean in model.finals_state_means.items():
+            batch[name] = mean.expand(state_tensor.shape[0], -1)
         for image_key in model.act_image_keys:
             camera_name = model.image_key_map.get(
                 image_key,

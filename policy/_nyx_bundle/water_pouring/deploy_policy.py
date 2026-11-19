@@ -1,7 +1,7 @@
 """Fixed observation-only ACT policy for RoboSynChallenge water_pouring.
 
 This is the packaged form of spatial-translation checkpoint 000200. Action
-generation uses only three public RGB observations and robot qpos/qvel/qf.
+generation uses three public RGB observations and measured joint positions.
 No simulator object pose, contact state, task metric, or success label is used
 to produce actions.
 """
@@ -13,6 +13,8 @@ from pathlib import Path
 
 import numpy as np
 import torch
+
+from policy._nyx_bundle.finals_observations import checkpoint_state_means
 
 from lerobot.configs.policies import PreTrainedConfig
 from lerobot.policies.act.modeling_act import ACTPolicy
@@ -27,8 +29,6 @@ GRIPPER_ACTION_IDS = (6, 13)
 
 OBSERVATION_PATHS = {
     "observation.state": "robot/qpos",
-    "observation.qvel": "robot/qvel",
-    "observation.qf": "robot/qf",
 }
 DEFAULT_IMAGE_KEY_MAP = {
     "observation.images.cam_high": "cam_high",
@@ -122,7 +122,8 @@ def get_model(usr_args):
     policy.state_observation_paths.update(
         usr_args.get("state_observation_paths") or {}
     )
-    configured_inputs = set(policy.config.input_features)
+    policy.finals_state_means = checkpoint_state_means(policy)
+    configured_inputs = set(policy.config.input_features) - policy.finals_state_means.keys()
     unsupported = configured_inputs - set(policy.act_image_keys) - set(
         policy.state_observation_paths
     )
@@ -158,7 +159,9 @@ def eval(env, model, obs):
         started_at = start_inference(model.act_device) if runs_model_inference else None
         batch = {}
         for feature_name in model.config.input_features:
-            if feature_name in model.act_image_keys:
+            if feature_name in model.finals_state_means:
+                batch[feature_name] = model.finals_state_means[feature_name]
+            elif feature_name in model.act_image_keys:
                 camera_name = model.image_key_map.get(
                     feature_name, feature_name.removeprefix("observation.images.")
                 )

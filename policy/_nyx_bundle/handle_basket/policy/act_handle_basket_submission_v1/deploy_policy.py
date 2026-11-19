@@ -12,6 +12,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
+from policy._nyx_bundle.finals_observations import checkpoint_state_means
+
 from lerobot.configs.policies import PreTrainedConfig
 from lerobot.policies.act.modeling_act import ACTPolicy
 from .inference_timing import finish_inference, start_inference
@@ -19,8 +21,6 @@ from .inference_timing import finish_inference, start_inference
 
 OBSERVATION_PATHS = {
     "observation.state": "robot/qpos",
-    "observation.qvel": "robot/qvel",
-    "observation.qf": "robot/qf",
 }
 
 
@@ -83,7 +83,8 @@ def get_model(usr_args):
 
     state_paths = dict(OBSERVATION_PATHS)
     state_paths.update(usr_args.get("state_observation_paths") or {})
-    configured_inputs = set(policy.config.input_features)
+    policy.finals_state_means = checkpoint_state_means(policy)
+    configured_inputs = set(policy.config.input_features) - policy.finals_state_means.keys()
     image_keys = list(policy.config.image_features)
     unsupported = configured_inputs - set(image_keys) - set(state_paths)
     if unsupported:
@@ -125,7 +126,9 @@ def eval(env, model, obs):
 
         batch = {}
         for feature_name in model.config.input_features:
-            if feature_name in model.act_image_keys:
+            if feature_name in model.finals_state_means:
+                batch[feature_name] = model.finals_state_means[feature_name]
+            elif feature_name in model.act_image_keys:
                 camera_name = model.image_key_map.get(
                     feature_name,
                     feature_name.removeprefix("observation.images."),
